@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-23 22:59",
+  "market_data_through": "2026-11-20",
+  "sources": [
+    {
+      "name": "Yahoo Finance (yfinance)",
+      "scope": "指数与 11 只自选股日线 + 财报",
+      "status": "ok"
+    },
+    {
+      "name": "美联储官网 (federalreserve.gov)",
+      "scope": "1990-2027 FOMC 日期 + 利率决议",
+      "status": "ok"
+    },
+    {
+      "name": "BLS 官方日历规则",
+      "scope": "1994-2026 非农发布日期",
+      "status": "ok"
+    },
+    {
+      "name": "CPI 宏观日历",
+      "scope": "BLS 403 拦截，暂缓接入（后期补齐）",
+      "status": "pending"
+    },
+    {
+      "name": "AI 指引摘要 / X (@aleabitoreddit)",
+      "scope": "第 2–3 期接入",
+      "status": "planned"
+    }
+  ]
+}

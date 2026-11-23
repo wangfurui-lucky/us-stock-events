@@ -1,0 +1,6006 @@
+{
+  "indices": {
+    "^GSPC": {
+      "name": "标普500",
+      "short": "SPX"
+    },
+    "^NDX": {
+      "name": "纳指100",
+      "short": "NDX"
+    },
+    "^SOX": {
+      "name": "费城半导体",
+      "short": "SOX"
+    },
+    "^VIX": {
+      "name": "恐慌指数 VIX",
+      "short": "VIX"
+    }
+  },
+  "fomc": {
+    "all_1994": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 260,
+            "pre5_mean": 0.0024,
+            "pre5_median": 0.0036,
+            "pre5_win": 0.5962,
+            "pre5_t": 1.6283,
+            "day0_mean": 0.0023,
+            "day0_median": 0.0009,
+            "day0_win": 0.5423,
+            "day0_t": 3.2413,
+            "post5_mean": -0.0,
+            "post5_median": 0.0027,
+            "post5_win": 0.5577,
+            "post5_t": -0.0279,
+            "absday0_mean": 0.0085,
+            "vol_ratio": 1.0916,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5395,
+            "base_d5_mean": 0.002,
+            "base_d5_win": 0.5802
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 260,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.179,
+                "median": -0.263
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.088,
+                "median": -0.284
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.137,
+                "median": -0.169
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.115,
+                "median": -0.081
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.234,
+                "median": 0.086
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.19,
+                "median": 0.225
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.17,
+                "median": 0.366
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.277,
+                "median": 0.37
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.318,
+                "median": 0.233
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.225,
+                "median": 0.417
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 260,
+            "pre5_mean": 0.0006,
+            "pre5_median": 0.0039,
+            "pre5_win": 0.5538,
+            "pre5_t": 0.2899,
+            "day0_mean": 0.0036,
+            "day0_median": 0.0034,
+            "day0_win": 0.6308,
+            "day0_t": 3.5433,
+            "post5_mean": 0.0007,
+            "post5_median": 0.0034,
+            "post5_win": 0.5346,
+            "post5_t": 0.2972,
+            "absday0_mean": 0.0122,
+            "vol_ratio": 1.0452,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5475,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.5774
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 260,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.094,
+                "median": -0.168
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.072,
+                "median": -0.238
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.045,
+                "median": -0.154
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.05,
+                "median": -0.066
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.364,
+                "median": 0.345
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.447,
+                "median": 0.574
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.421,
+                "median": 0.639
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.51,
+                "median": 0.638
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.557,
+                "median": 0.653
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.427,
+                "median": 0.617
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 258,
+            "pre5_mean": -0.0011,
+            "pre5_median": 0.0007,
+            "pre5_win": 0.5039,
+            "pre5_t": -0.3335,
+            "day0_mean": 0.006,
+            "day0_median": 0.0052,
+            "day0_win": 0.6163,
+            "day0_t": 4.3808,
+            "post5_mean": 0.0007,
+            "post5_median": 0.0021,
+            "post5_win": 0.5155,
+            "post5_t": 0.195,
+            "absday0_mean": 0.0172,
+            "vol_ratio": 1.0026,
+            "base_day_mean": 0.0009,
+            "base_day_win": 0.5237,
+            "base_d5_mean": 0.0041,
+            "base_d5_win": 0.5469
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 258,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.415,
+                "median": 0.023
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.348,
+                "median": 0.264
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.164,
+                "median": 0.026
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.047,
+                "median": -0.04
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.595,
+                "median": 0.521
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.768,
+                "median": 0.345
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.623,
+                "median": 0.618
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.763,
+                "median": 0.669
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.867,
+                "median": 0.451
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.629,
+                "median": 0.396
+              }
+            ]
+          }
+        }
+      },
+      "^VIX": {
+        "stats": {
+          "all": {
+            "n": 260,
+            "pre5_mean": 0.0177,
+            "pre5_median": 0.0023,
+            "pre5_win": 0.5038,
+            "pre5_t": 1.9954,
+            "day0_mean": -0.0157,
+            "day0_median": -0.0223,
+            "day0_win": 0.3231,
+            "day0_t": -2.7709,
+            "post5_mean": 0.0141,
+            "post5_median": 0.0089,
+            "post5_win": 0.5385,
+            "post5_t": 1.5736,
+            "absday0_mean": 0.0569,
+            "vol_ratio": 1.1446,
+            "base_day_mean": 0.0025,
+            "base_day_win": 0.4633,
+            "base_d5_mean": 0.0098,
+            "base_d5_win": 0.4709
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 260,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.58,
+                "median": -0.779
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.09,
+                "median": -0.996
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -1.21,
+                "median": -1.751
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.294,
+                "median": -0.605
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -1.574,
+                "median": -2.228
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -1.621,
+                "median": -3.358
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -1.705,
+                "median": -3.609
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.44,
+                "median": -2.809
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.6,
+                "median": -1.077
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.529,
+                "median": -2.454
+              }
+            ]
+          }
+        }
+      }
+    },
+    "by_decision_2003": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 188,
+            "pre5_mean": 0.0023,
+            "pre5_median": 0.004,
+            "pre5_win": 0.6117,
+            "pre5_t": 1.3712,
+            "day0_mean": 0.0025,
+            "day0_median": 0.0006,
+            "day0_win": 0.5266,
+            "day0_t": 2.7986,
+            "post5_mean": -0.0003,
+            "post5_median": 0.0014,
+            "post5_win": 0.5213,
+            "post5_t": -0.2187,
+            "absday0_mean": 0.0089,
+            "vol_ratio": 1.1677,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5461,
+            "base_d5_mean": 0.0021,
+            "base_d5_win": 0.5883
+          },
+          "cut": {
+            "n": 18,
+            "pre5_mean": 0.0073,
+            "pre5_median": 0.0099,
+            "pre5_win": 0.8333,
+            "pre5_t": 1.5127,
+            "day0_mean": 0.0031,
+            "day0_median": -0.0005,
+            "day0_win": 0.4444,
+            "day0_t": 0.6308,
+            "post5_mean": -0.0058,
+            "post5_median": -0.0028,
+            "post5_win": 0.4444,
+            "post5_t": -1.0341,
+            "absday0_mean": 0.0139,
+            "vol_ratio": 1.83,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5461,
+            "base_d5_mean": 0.0021,
+            "base_d5_win": 0.5883
+          },
+          "hike": {
+            "n": 38,
+            "pre5_mean": -0.0014,
+            "pre5_median": 0.0001,
+            "pre5_win": 0.5263,
+            "pre5_t": -0.3928,
+            "day0_mean": 0.001,
+            "day0_median": -0.001,
+            "day0_win": 0.3947,
+            "day0_t": 0.5071,
+            "post5_mean": -0.0039,
+            "post5_median": -0.001,
+            "post5_win": 0.4474,
+            "post5_t": -1.1156,
+            "absday0_mean": 0.009,
+            "vol_ratio": 1.1907,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5461,
+            "base_d5_mean": 0.0021,
+            "base_d5_win": 0.5883
+          },
+          "hold": {
+            "n": 132,
+            "pre5_mean": 0.0027,
+            "pre5_median": 0.0044,
+            "pre5_win": 0.6061,
+            "pre5_t": 1.3238,
+            "day0_mean": 0.0029,
+            "day0_median": 0.0015,
+            "day0_win": 0.5758,
+            "day0_t": 3.0313,
+            "post5_mean": 0.0014,
+            "post5_median": 0.0034,
+            "post5_win": 0.553,
+            "post5_t": 0.7695,
+            "absday0_mean": 0.0081,
+            "vol_ratio": 1.0708,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5461,
+            "base_d5_mean": 0.0021,
+            "base_d5_win": 0.5883
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 188,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.158,
+                "median": -0.263
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.035,
+                "median": -0.284
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.103,
+                "median": -0.154
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.086,
+                "median": -0.041
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.25,
+                "median": 0.056
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.084,
+                "median": 0.096
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.06,
+                "median": 0.199
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.252,
+                "median": 0.323
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.295,
+                "median": 0.172
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.212,
+                "median": 0.344
+              }
+            ]
+          },
+          "cut": {
+            "n": 18,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.721,
+                "median": -0.89
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.445,
+                "median": -0.33
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.481,
+                "median": 0.032
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.532,
+                "median": 0.086
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.307,
+                "median": -0.051
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.445,
+                "median": 0.633
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.572,
+                "median": 0.93
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.416,
+                "median": 1.058
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.402,
+                "median": 0.119
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.292,
+                "median": -0.049
+              }
+            ]
+          },
+          "hike": {
+            "n": 38,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.153,
+                "median": -0.071
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.247,
+                "median": -0.185
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.058,
+                "median": -0.152
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.143,
+                "median": -0.116
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.099,
+                "median": -0.1
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.252,
+                "median": -0.268
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.294,
+                "median": -0.146
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.369,
+                "median": -0.207
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.272,
+                "median": -0.151
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.291,
+                "median": 0.076
+              }
+            ]
+          },
+          "hold": {
+            "n": 132,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.17,
+                "median": -0.26
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.06,
+                "median": -0.327
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.065,
+                "median": -0.174
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.009,
+                "median": -0.041
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.286,
+                "median": 0.147
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.132,
+                "median": 0.159
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.092,
+                "median": 0.228
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.409,
+                "median": 0.34
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.443,
+                "median": 0.369
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.426,
+                "median": 0.431
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 188,
+            "pre5_mean": 0.0021,
+            "pre5_median": 0.0043,
+            "pre5_win": 0.5638,
+            "pre5_t": 1.0251,
+            "day0_mean": 0.0038,
+            "day0_median": 0.003,
+            "day0_win": 0.6064,
+            "day0_t": 3.6175,
+            "post5_mean": 0.0001,
+            "post5_median": 0.002,
+            "post5_win": 0.5213,
+            "post5_t": 0.0399,
+            "absday0_mean": 0.0108,
+            "vol_ratio": 1.1229,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5526,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.587
+          },
+          "cut": {
+            "n": 18,
+            "pre5_mean": 0.0108,
+            "pre5_median": 0.0113,
+            "pre5_win": 0.8333,
+            "pre5_t": 2.2269,
+            "day0_mean": 0.0043,
+            "day0_median": 0.002,
+            "day0_win": 0.5556,
+            "day0_t": 0.8669,
+            "post5_mean": -0.0035,
+            "post5_median": -0.0057,
+            "post5_win": 0.4444,
+            "post5_t": -0.4979,
+            "absday0_mean": 0.0144,
+            "vol_ratio": 1.499,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5526,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.587
+          },
+          "hike": {
+            "n": 38,
+            "pre5_mean": -0.0043,
+            "pre5_median": -0.0034,
+            "pre5_win": 0.4737,
+            "pre5_t": -0.9421,
+            "day0_mean": 0.0027,
+            "day0_median": -0.0003,
+            "day0_win": 0.4737,
+            "day0_t": 1.0076,
+            "post5_mean": -0.0041,
+            "post5_median": -0.007,
+            "post5_win": 0.4737,
+            "post5_t": -0.7425,
+            "absday0_mean": 0.0115,
+            "vol_ratio": 1.1973,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5526,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.587
+          },
+          "hold": {
+            "n": 132,
+            "pre5_mean": 0.0027,
+            "pre5_median": 0.0037,
+            "pre5_win": 0.553,
+            "pre5_t": 1.1034,
+            "day0_mean": 0.0041,
+            "day0_median": 0.0038,
+            "day0_win": 0.6515,
+            "day0_t": 3.6506,
+            "post5_mean": 0.0018,
+            "post5_median": 0.0026,
+            "post5_win": 0.5455,
+            "post5_t": 0.7505,
+            "absday0_mean": 0.0101,
+            "vol_ratio": 1.0502,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5526,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.587
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 188,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.064,
+                "median": -0.188
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.009,
+                "median": -0.297
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.129,
+                "median": -0.231
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.099,
+                "median": -0.134
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.381,
+                "median": 0.3
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.218,
+                "median": 0.411
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.174,
+                "median": 0.465
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.39,
+                "median": 0.566
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.467,
+                "median": 0.641
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.387,
+                "median": 0.555
+              }
+            ]
+          },
+          "cut": {
+            "n": 18,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.814,
+                "median": -1.004
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.531,
+                "median": -0.403
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.559,
+                "median": -0.283
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.443,
+                "median": -0.096
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.433,
+                "median": 0.199
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.746,
+                "median": 1.18
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.684,
+                "median": 1.431
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.714,
+                "median": 1.281
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.642,
+                "median": 0.984
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.072,
+                "median": 0.149
+              }
+            ]
+          },
+          "hike": {
+            "n": 38,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.514,
+                "median": 0.299
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.505,
+                "median": -0.166
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.008,
+                "median": -0.449
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.253,
+                "median": -0.206
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.266,
+                "median": -0.028
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.178,
+                "median": -0.073
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.164,
+                "median": 0.173
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.252,
+                "median": 0.046
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.151,
+                "median": 0.12
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.145,
+                "median": 0.378
+              }
+            ]
+          },
+          "hold": {
+            "n": 132,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.128,
+                "median": -0.172
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.086,
+                "median": -0.342
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.105,
+                "median": -0.223
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.008,
+                "median": -0.093
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.407,
+                "median": 0.376
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.261,
+                "median": 0.574
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.202,
+                "median": 0.465
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.531,
+                "median": 0.638
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.621,
+                "median": 0.751
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.583,
+                "median": 0.675
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 188,
+            "pre5_mean": 0.0014,
+            "pre5_median": 0.0035,
+            "pre5_win": 0.5106,
+            "pre5_t": 0.4438,
+            "day0_mean": 0.0051,
+            "day0_median": 0.0047,
+            "day0_win": 0.5957,
+            "day0_t": 3.5181,
+            "post5_mean": 0.0005,
+            "post5_median": 0.0021,
+            "post5_win": 0.5213,
+            "post5_t": 0.159,
+            "absday0_mean": 0.0156,
+            "vol_ratio": 1.0718,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5334,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5538
+          },
+          "cut": {
+            "n": 18,
+            "pre5_mean": 0.0206,
+            "pre5_median": 0.0289,
+            "pre5_win": 0.7222,
+            "pre5_t": 2.5916,
+            "day0_mean": 0.0022,
+            "day0_median": 0.0001,
+            "day0_win": 0.5,
+            "day0_t": 0.3773,
+            "post5_mean": -0.0089,
+            "post5_median": -0.0099,
+            "post5_win": 0.3889,
+            "post5_t": -0.7416,
+            "absday0_mean": 0.0193,
+            "vol_ratio": 1.3259,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5334,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5538
+          },
+          "hike": {
+            "n": 38,
+            "pre5_mean": -0.0056,
+            "pre5_median": -0.0032,
+            "pre5_win": 0.4474,
+            "pre5_t": -0.9179,
+            "day0_mean": 0.0017,
+            "day0_median": -0.0014,
+            "day0_win": 0.4211,
+            "day0_t": 0.4752,
+            "post5_mean": -0.0027,
+            "post5_median": 0.0032,
+            "post5_win": 0.5526,
+            "post5_t": -0.3545,
+            "absday0_mean": 0.0162,
+            "vol_ratio": 1.1151,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5334,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5538
+          },
+          "hold": {
+            "n": 132,
+            "pre5_mean": 0.0008,
+            "pre5_median": 0.0017,
+            "pre5_win": 0.5,
+            "pre5_t": 0.2008,
+            "day0_mean": 0.0065,
+            "day0_median": 0.0068,
+            "day0_win": 0.6591,
+            "day0_t": 4.0161,
+            "post5_mean": 0.0027,
+            "post5_median": 0.0024,
+            "post5_win": 0.5303,
+            "post5_t": 0.7188,
+            "absday0_mean": 0.0149,
+            "vol_ratio": 1.0247,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5334,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5538
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 188,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.228,
+                "median": 0.023
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.273,
+                "median": 0.299
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.004,
+                "median": -0.05
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.048,
+                "median": -0.079
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.515,
+                "median": 0.47
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.368,
+                "median": 0.165
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.271,
+                "median": 0.374
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.476,
+                "median": 0.416
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.624,
+                "median": 0.329
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.548,
+                "median": 0.187
+              }
+            ]
+          },
+          "cut": {
+            "n": 18,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -1.199,
+                "median": -1.367
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.083,
+                "median": -0.845
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.854,
+                "median": -0.774
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.293,
+                "median": 0.001
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.225,
+                "median": 0.008
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.513,
+                "median": 0.506
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.072,
+                "median": 0.656
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.183,
+                "median": 1.184
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.108,
+                "median": 0.014
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.725,
+                "median": 0.023
+              }
+            ]
+          },
+          "hike": {
+            "n": 38,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.837,
+                "median": 0.721
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.731,
+                "median": 0.884
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.17,
+                "median": -0.032
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.34,
+                "median": -0.459
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.169,
+                "median": -0.138
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.343,
+                "median": -0.397
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.15,
+                "median": 0.348
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.242,
+                "median": -0.183
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.04,
+                "median": -0.79
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.134,
+                "median": -0.071
+              }
+            ]
+          },
+          "hold": {
+            "n": 132,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.248,
+                "median": 0.023
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.326,
+                "median": 0.226
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.061,
+                "median": 0.112
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.07,
+                "median": -0.06
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.654,
+                "median": 0.678
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.553,
+                "median": 0.235
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.419,
+                "median": 0.362
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.722,
+                "median": 0.392
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.914,
+                "median": 0.469
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.918,
+                "median": 0.278
+              }
+            ]
+          }
+        }
+      },
+      "^VIX": {
+        "stats": {
+          "all": {
+            "n": 188,
+            "pre5_mean": 0.0215,
+            "pre5_median": 0.0015,
+            "pre5_win": 0.5,
+            "pre5_t": 1.8736,
+            "day0_mean": -0.0145,
+            "day0_median": -0.0209,
+            "day0_win": 0.367,
+            "day0_t": -1.9833,
+            "post5_mean": 0.0156,
+            "post5_median": 0.0054,
+            "post5_win": 0.5266,
+            "post5_t": 1.3451,
+            "absday0_mean": 0.0626,
+            "vol_ratio": 1.1985,
+            "base_day_mean": 0.0027,
+            "base_day_win": 0.4526,
+            "base_d5_mean": 0.0105,
+            "base_d5_win": 0.4624
+          },
+          "cut": {
+            "n": 18,
+            "pre5_mean": -0.0038,
+            "pre5_median": -0.0299,
+            "pre5_win": 0.4444,
+            "pre5_t": -0.1464,
+            "day0_mean": 0.0157,
+            "day0_median": -0.0155,
+            "day0_win": 0.5,
+            "day0_t": 0.3236,
+            "post5_mean": -0.0125,
+            "post5_median": -0.0145,
+            "post5_win": 0.5,
+            "post5_t": -0.2833,
+            "absday0_mean": 0.116,
+            "vol_ratio": 2.2207,
+            "base_day_mean": 0.0027,
+            "base_day_win": 0.4526,
+            "base_d5_mean": 0.0105,
+            "base_d5_win": 0.4624
+          },
+          "hike": {
+            "n": 38,
+            "pre5_mean": 0.0203,
+            "pre5_median": 0.0138,
+            "pre5_win": 0.5526,
+            "pre5_t": 1.132,
+            "day0_mean": -0.0247,
+            "day0_median": -0.0247,
+            "day0_win": 0.4211,
+            "day0_t": -2.5922,
+            "post5_mean": 0.0175,
+            "post5_median": 0.008,
+            "post5_win": 0.5263,
+            "post5_t": 0.8673,
+            "absday0_mean": 0.0504,
+            "vol_ratio": 0.9645,
+            "base_day_mean": 0.0027,
+            "base_day_win": 0.4526,
+            "base_d5_mean": 0.0105,
+            "base_d5_win": 0.4624
+          },
+          "hold": {
+            "n": 132,
+            "pre5_mean": 0.0253,
+            "pre5_median": 0.0,
+            "pre5_win": 0.4924,
+            "pre5_t": 1.6726,
+            "day0_mean": -0.0157,
+            "day0_median": -0.0209,
+            "day0_win": 0.3333,
+            "day0_t": -2.055,
+            "post5_mean": 0.0188,
+            "post5_median": 0.003,
+            "post5_win": 0.5303,
+            "post5_t": 1.3207,
+            "absday0_mean": 0.0589,
+            "vol_ratio": 1.1265,
+            "base_day_mean": 0.0027,
+            "base_day_win": 0.4526,
+            "base_d5_mean": 0.0105,
+            "base_d5_win": 0.4624
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 188,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.55,
+                "median": -0.614
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.135,
+                "median": -1.119
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.96,
+                "median": -1.712
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.333,
+                "median": 0.082
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -1.45,
+                "median": -2.085
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.598,
+                "median": -2.13
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.618,
+                "median": -2.459
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.665,
+                "median": -2.092
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.226,
+                "median": -1.036
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.349,
+                "median": -2.454
+              }
+            ]
+          },
+          "cut": {
+            "n": 18,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 1.351,
+                "median": 0.277
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.845,
+                "median": -1.669
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -2.263,
+                "median": -5.405
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.114,
+                "median": -2.817
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 1.572,
+                "median": -1.552
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.012,
+                "median": -5.081
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -3.37,
+                "median": -7.346
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.849,
+                "median": -3.836
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -2.787,
+                "median": -4.437
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -1.726,
+                "median": -3.457
+              }
+            ]
+          },
+          "hike": {
+            "n": 38,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.989,
+                "median": -1.055
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.561,
+                "median": -0.983
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.498,
+                "median": -1.553
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.528,
+                "median": 0.177
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -2.466,
+                "median": -2.468
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.745,
+                "median": -1.63
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -1.398,
+                "median": -2.468
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.751,
+                "median": -2.938
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.994,
+                "median": -0.915
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.928,
+                "median": -2.229
+              }
+            ]
+          },
+          "hold": {
+            "n": 132,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.683,
+                "median": -0.655
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.052,
+                "median": -1.056
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.915,
+                "median": -1.353
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.338,
+                "median": 0.465
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -1.57,
+                "median": -2.085
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.635,
+                "median": -2.339
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.018,
+                "median": -2.257
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.279,
+                "median": -0.807
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.345,
+                "median": -0.675
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.005,
+                "median": -2.364
+              }
+            ]
+          }
+        }
+      }
+    },
+    "recent_2022": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 39,
+            "pre5_mean": 0.0018,
+            "pre5_median": 0.0031,
+            "pre5_win": 0.6667,
+            "pre5_t": 0.4773,
+            "day0_mean": 0.0002,
+            "day0_median": -0.0003,
+            "day0_win": 0.4103,
+            "day0_t": 0.0735,
+            "post5_mean": 0.0049,
+            "post5_median": 0.0037,
+            "post5_win": 0.5641,
+            "post5_t": 1.0749,
+            "absday0_mean": 0.0098,
+            "vol_ratio": 1.2813,
+            "base_day_mean": 0.0005,
+            "base_day_win": 0.5323,
+            "base_d5_mean": 0.0026,
+            "base_d5_win": 0.5803
+          },
+          "cut": {
+            "n": 6,
+            "pre5_mean": 0.0145,
+            "pre5_median": 0.0172,
+            "pre5_win": 1.0,
+            "pre5_t": 3.4591,
+            "day0_mean": -0.0032,
+            "day0_median": -0.0005,
+            "day0_win": 0.3333,
+            "day0_t": -0.579,
+            "post5_mean": 0.0018,
+            "post5_median": 0.0008,
+            "post5_win": 0.5,
+            "post5_t": 0.2223,
+            "absday0_mean": 0.0079,
+            "vol_ratio": 1.0389,
+            "base_day_mean": 0.0005,
+            "base_day_win": 0.5323,
+            "base_d5_mean": 0.0026,
+            "base_d5_win": 0.5803
+          },
+          "hike": {
+            "n": 12,
+            "pre5_mean": -0.0038,
+            "pre5_median": 0.0014,
+            "pre5_win": 0.5833,
+            "pre5_t": -0.3875,
+            "day0_mean": 0.0023,
+            "day0_median": -0.0023,
+            "day0_win": 0.4167,
+            "day0_t": 0.4319,
+            "post5_mean": -0.003,
+            "post5_median": 0.0006,
+            "post5_win": 0.5,
+            "post5_t": -0.3276,
+            "absday0_mean": 0.015,
+            "vol_ratio": 1.9619,
+            "base_day_mean": 0.0005,
+            "base_day_win": 0.5323,
+            "base_d5_mean": 0.0026,
+            "base_d5_win": 0.5803
+          },
+          "hold": {
+            "n": 21,
+            "pre5_mean": 0.0013,
+            "pre5_median": 0.0031,
+            "pre5_win": 0.619,
+            "pre5_t": 0.347,
+            "day0_mean": -0.0001,
+            "day0_median": -0.0003,
+            "day0_win": 0.4286,
+            "day0_t": -0.0456,
+            "post5_mean": 0.0102,
+            "post5_median": 0.0046,
+            "post5_win": 0.619,
+            "post5_t": 1.6654,
+            "absday0_mean": 0.0073,
+            "vol_ratio": 0.9617,
+            "base_day_mean": 0.0005,
+            "base_day_win": 0.5323,
+            "base_d5_mean": 0.0026,
+            "base_d5_win": 0.5803
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 39,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.157,
+                "median": -0.171
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.102,
+                "median": -0.416
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.233,
+                "median": -0.152
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.027,
+                "median": 0.06
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.015,
+                "median": -0.031
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.023,
+                "median": 0.057
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.096,
+                "median": 0.683
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.321,
+                "median": 0.471
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.441,
+                "median": 0.484
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.492,
+                "median": 0.472
+              }
+            ]
+          },
+          "cut": {
+            "n": 6,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -1.403,
+                "median": -1.279
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.053,
+                "median": -0.49
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.856,
+                "median": -0.246
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.353,
+                "median": 0.031
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.32,
+                "median": -0.051
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.04,
+                "median": 0.633
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.065,
+                "median": 0.34
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.259,
+                "median": 0.288
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.16,
+                "median": 0.292
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.16,
+                "median": 0.062
+              }
+            ]
+          },
+          "hike": {
+            "n": 12,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.509,
+                "median": 0.082
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.747,
+                "median": 0.005
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.143,
+                "median": 0.152
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.132,
+                "median": 0.049
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.227,
+                "median": -0.231
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.377,
+                "median": -1.019
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.098,
+                "median": -0.237
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.162,
+                "median": 0.46
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.041,
+                "median": 0.097
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.083,
+                "median": 0.531
+              }
+            ]
+          },
+          "hold": {
+            "n": 21,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.182,
+                "median": -0.171
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.315,
+                "median": -0.541
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.269,
+                "median": -0.226
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.127,
+                "median": 0.06
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.009,
+                "median": -0.031
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.27,
+                "median": 0.119
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.215,
+                "median": 0.82
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.615,
+                "median": 0.766
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.797,
+                "median": 0.594
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.008,
+                "median": 1.351
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 39,
+            "pre5_mean": 0.0014,
+            "pre5_median": 0.0055,
+            "pre5_win": 0.5897,
+            "pre5_t": 0.2726,
+            "day0_mean": 0.0025,
+            "day0_median": 0.0017,
+            "day0_win": 0.5897,
+            "day0_t": 0.8723,
+            "post5_mean": 0.0071,
+            "post5_median": 0.0091,
+            "post5_win": 0.5897,
+            "post5_t": 1.0852,
+            "absday0_mean": 0.0135,
+            "vol_ratio": 1.2595,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5474,
+            "base_d5_mean": 0.0034,
+            "base_d5_win": 0.5744
+          },
+          "cut": {
+            "n": 6,
+            "pre5_mean": 0.0231,
+            "pre5_median": 0.0245,
+            "pre5_win": 1.0,
+            "pre5_t": 4.9456,
+            "day0_mean": -0.0031,
+            "day0_median": 0.001,
+            "day0_win": 0.5,
+            "day0_t": -0.4394,
+            "post5_mean": -0.0004,
+            "post5_median": 0.0009,
+            "post5_win": 0.5,
+            "post5_t": -0.0316,
+            "absday0_mean": 0.0111,
+            "vol_ratio": 1.0328,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5474,
+            "base_d5_mean": 0.0034,
+            "base_d5_win": 0.5744
+          },
+          "hike": {
+            "n": 12,
+            "pre5_mean": -0.0055,
+            "pre5_median": -0.0036,
+            "pre5_win": 0.5,
+            "pre5_t": -0.4727,
+            "day0_mean": 0.0064,
+            "day0_median": -0.0019,
+            "day0_win": 0.5,
+            "day0_t": 0.8942,
+            "post5_mean": 0.0014,
+            "post5_median": 0.0098,
+            "post5_win": 0.5833,
+            "post5_t": 0.1017,
+            "absday0_mean": 0.0204,
+            "vol_ratio": 1.9013,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5474,
+            "base_d5_mean": 0.0034,
+            "base_d5_win": 0.5744
+          },
+          "hold": {
+            "n": 21,
+            "pre5_mean": -0.0009,
+            "pre5_median": 0.0042,
+            "pre5_win": 0.5238,
+            "pre5_t": -0.1427,
+            "day0_mean": 0.0018,
+            "day0_median": 0.0032,
+            "day0_win": 0.6667,
+            "day0_t": 0.6594,
+            "post5_mean": 0.0125,
+            "post5_median": 0.0091,
+            "post5_win": 0.619,
+            "post5_t": 1.3865,
+            "absday0_mean": 0.0103,
+            "vol_ratio": 0.9575,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5474,
+            "base_d5_mean": 0.0034,
+            "base_d5_win": 0.5744
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 39,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.027,
+                "median": -0.195
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.045,
+                "median": -0.379
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.176,
+                "median": -0.319
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.037,
+                "median": -0.048
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.248,
+                "median": 0.167
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.228,
+                "median": 0.21
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.39,
+                "median": 1.218
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.697,
+                "median": 1.357
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.944,
+                "median": 0.989
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.946,
+                "median": 0.949
+              }
+            ]
+          },
+          "cut": {
+            "n": 6,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -2.12,
+                "median": -1.414
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.736,
+                "median": -1.457
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -1.281,
+                "median": -0.877
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.515,
+                "median": -0.103
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.314,
+                "median": 0.103
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.098,
+                "median": 0.407
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.134,
+                "median": 0.429
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.134,
+                "median": 0.621
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.017,
+                "median": 0.151
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.377,
+                "median": -0.251
+              }
+            ]
+          },
+          "hike": {
+            "n": 12,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.94,
+                "median": 1.354
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 1.118,
+                "median": 0.463
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.392,
+                "median": 0.309
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.226,
+                "median": -0.157
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.638,
+                "median": -0.187
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.01,
+                "median": -0.81
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.527,
+                "median": 0.655
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.445,
+                "median": 1.307
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.876,
+                "median": 0.837
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.778,
+                "median": 1.303
+              }
+            ]
+          },
+          "hold": {
+            "n": 21,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.019,
+                "median": 0.201
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.226,
+                "median": -0.379
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.185,
+                "median": -0.319
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.346,
+                "median": 0.225
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.185,
+                "median": 0.32
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.446,
+                "median": 0.578
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.462,
+                "median": 1.265
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.003,
+                "median": 1.358
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.257,
+                "median": 0.989
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.421,
+                "median": 1.379
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 39,
+            "pre5_mean": 0.0031,
+            "pre5_median": 0.0176,
+            "pre5_win": 0.5897,
+            "pre5_t": 0.3629,
+            "day0_mean": 0.0078,
+            "day0_median": 0.0129,
+            "day0_win": 0.641,
+            "day0_t": 1.884,
+            "post5_mean": 0.0068,
+            "post5_median": 0.0161,
+            "post5_win": 0.6154,
+            "post5_t": 0.6255,
+            "absday0_mean": 0.0216,
+            "vol_ratio": 1.1709,
+            "base_day_mean": 0.0013,
+            "base_day_win": 0.544,
+            "base_d5_mean": 0.0063,
+            "base_d5_win": 0.5517
+          },
+          "cut": {
+            "n": 6,
+            "pre5_mean": 0.0409,
+            "pre5_median": 0.047,
+            "pre5_win": 1.0,
+            "pre5_t": 6.0534,
+            "day0_mean": 0.0003,
+            "day0_median": 0.0049,
+            "day0_win": 0.5,
+            "day0_t": 0.0316,
+            "post5_mean": -0.0079,
+            "post5_median": 0.0101,
+            "post5_win": 0.5,
+            "post5_t": -0.3005,
+            "absday0_mean": 0.0177,
+            "vol_ratio": 0.96,
+            "base_day_mean": 0.0013,
+            "base_day_win": 0.544,
+            "base_d5_mean": 0.0063,
+            "base_d5_win": 0.5517
+          },
+          "hike": {
+            "n": 12,
+            "pre5_mean": -0.0044,
+            "pre5_median": 0.001,
+            "pre5_win": 0.5,
+            "pre5_t": -0.2967,
+            "day0_mean": 0.01,
+            "day0_median": -0.0009,
+            "day0_win": 0.5,
+            "day0_t": 1.1576,
+            "post5_mean": 0.0,
+            "post5_median": 0.0047,
+            "post5_win": 0.5833,
+            "post5_t": 0.0001,
+            "absday0_mean": 0.0254,
+            "vol_ratio": 1.376,
+            "base_day_mean": 0.0013,
+            "base_day_win": 0.544,
+            "base_d5_mean": 0.0063,
+            "base_d5_win": 0.5517
+          },
+          "hold": {
+            "n": 21,
+            "pre5_mean": -0.0035,
+            "pre5_median": 0.0176,
+            "pre5_win": 0.5238,
+            "pre5_t": -0.2807,
+            "day0_mean": 0.0087,
+            "day0_median": 0.0152,
+            "day0_win": 0.7619,
+            "day0_t": 1.5923,
+            "post5_mean": 0.015,
+            "post5_median": 0.0233,
+            "post5_win": 0.6667,
+            "post5_t": 0.8979,
+            "absday0_mean": 0.0206,
+            "vol_ratio": 1.114,
+            "base_day_mean": 0.0013,
+            "base_day_win": 0.544,
+            "base_d5_mean": 0.0063,
+            "base_d5_win": 0.5517
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 39,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.171,
+                "median": -0.334
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.116,
+                "median": -0.854
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.153,
+                "median": 0.213
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.283,
+                "median": -0.056
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.78,
+                "median": 1.288
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.933,
+                "median": 0.529
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.723,
+                "median": 0.387
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.159,
+                "median": 1.577
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.583,
+                "median": 1.418
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.397,
+                "median": 1.671
+              }
+            ]
+          },
+          "cut": {
+            "n": 6,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -3.061,
+                "median": -2.37
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -2.724,
+                "median": -2.876
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -1.497,
+                "median": -1.164
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.341,
+                "median": -0.176
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.03,
+                "median": 0.488
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.556,
+                "median": 0.983
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.819,
+                "median": -0.331
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -0.12,
+                "median": 0.036
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -0.854,
+                "median": -1.459
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.853,
+                "median": 0.023
+              }
+            ]
+          },
+          "hike": {
+            "n": 12,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.879,
+                "median": 0.568
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.932,
+                "median": 0.386
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.412,
+                "median": 0.368
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.661,
+                "median": -0.686
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 1.003,
+                "median": -0.088
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.296,
+                "median": -0.473
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.985,
+                "median": 0.251
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.954,
+                "median": 1.456
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.546,
+                "median": 0.886
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.98,
+                "median": 0.47
+              }
+            ]
+          },
+          "hold": {
+            "n": 21,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.69,
+                "median": -0.313
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.462,
+                "median": -0.854
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.476,
+                "median": 0.502
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 1.001,
+                "median": 0.95
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.867,
+                "median": 1.523
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 1.404,
+                "median": 0.662
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 1.014,
+                "median": 0.395
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.642,
+                "median": 2.292
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 2.3,
+                "median": 1.576
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 2.277,
+                "median": 2.505
+              }
+            ]
+          }
+        }
+      },
+      "^VIX": {
+        "stats": {
+          "all": {
+            "n": 39,
+            "pre5_mean": 0.0027,
+            "pre5_median": -0.0025,
+            "pre5_win": 0.4615,
+            "pre5_t": 0.126,
+            "day0_mean": 0.0057,
+            "day0_median": -0.0313,
+            "day0_win": 0.4359,
+            "day0_t": 0.2589,
+            "post5_mean": -0.0164,
+            "post5_median": -0.0477,
+            "post5_win": 0.4103,
+            "post5_t": -0.544,
+            "absday0_mean": 0.0749,
+            "vol_ratio": 1.4243,
+            "base_day_mean": 0.0023,
+            "base_day_win": 0.4368,
+            "base_d5_mean": 0.0094,
+            "base_d5_win": 0.461
+          },
+          "cut": {
+            "n": 6,
+            "pre5_mean": -0.0219,
+            "pre5_median": -0.0283,
+            "pre5_win": 0.5,
+            "pre5_t": -0.4459,
+            "day0_mean": 0.1054,
+            "day0_median": -0.0043,
+            "day0_win": 0.5,
+            "day0_t": 0.8215,
+            "post5_mean": -0.0782,
+            "post5_median": -0.0146,
+            "post5_win": 0.5,
+            "post5_t": -0.8979,
+            "absday0_mean": 0.1632,
+            "vol_ratio": 3.1044,
+            "base_day_mean": 0.0023,
+            "base_day_win": 0.4368,
+            "base_d5_mean": 0.0094,
+            "base_d5_win": 0.461
+          },
+          "hike": {
+            "n": 12,
+            "pre5_mean": 0.0005,
+            "pre5_median": 0.0019,
+            "pre5_win": 0.5,
+            "pre5_t": 0.0125,
+            "day0_mean": -0.037,
+            "day0_median": -0.0535,
+            "day0_win": 0.4167,
+            "day0_t": -2.0978,
+            "post5_mean": 0.007,
+            "post5_median": -0.0349,
+            "post5_win": 0.4167,
+            "post5_t": 0.1773,
+            "absday0_mean": 0.0595,
+            "vol_ratio": 1.1316,
+            "base_day_mean": 0.0023,
+            "base_day_win": 0.4368,
+            "base_d5_mean": 0.0094,
+            "base_d5_win": 0.461
+          },
+          "hold": {
+            "n": 21,
+            "pre5_mean": 0.011,
+            "pre5_median": -0.0025,
+            "pre5_win": 0.4286,
+            "pre5_t": 0.3574,
+            "day0_mean": 0.0016,
+            "day0_median": -0.0166,
+            "day0_win": 0.4286,
+            "day0_t": 0.1047,
+            "post5_mean": -0.0122,
+            "post5_median": -0.0477,
+            "post5_win": 0.381,
+            "post5_t": -0.2655,
+            "absday0_mean": 0.0585,
+            "vol_ratio": 1.1116,
+            "base_day_mean": 0.0023,
+            "base_day_win": 0.4368,
+            "base_d5_mean": 0.0094,
+            "base_d5_win": 0.461
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 39,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 1.218,
+                "median": -0.507
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.652,
+                "median": -0.646
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.148,
+                "median": -2.268
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.789,
+                "median": -0.581
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.57,
+                "median": -3.129
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.184,
+                "median": -1.976
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.929,
+                "median": -4.711
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.173,
+                "median": -1.659
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -1.303,
+                "median": -3.078
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -2.217,
+                "median": -4.724
+              }
+            ]
+          },
+          "cut": {
+            "n": 6,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 5.076,
+                "median": -2.283
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 1.268,
+                "median": -4.93
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.485,
+                "median": -7.47
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 1.051,
+                "median": -3.253
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 10.544,
+                "median": -0.433
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 3.836,
+                "median": -5.651
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -1.162,
+                "median": -6.296
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -2.197,
+                "median": -2.065
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -3.625,
+                "median": -6.37
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -3.177,
+                "median": -4.142
+              }
+            ]
+          },
+          "hike": {
+            "n": 12,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.914,
+                "median": -0.072
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -1.376,
+                "median": -0.108
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -1.085,
+                "median": -2.521
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 2.307,
+                "median": 1.572
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -3.704,
+                "median": -5.353
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.587,
+                "median": 0.747
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -4.535,
+                "median": -4.298
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -2.343,
+                "median": -4.074
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -3.189,
+                "median": -3.446
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -3.372,
+                "median": -7.648
+              }
+            ]
+          },
+          "hold": {
+            "n": 21,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.289,
+                "median": -0.507
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 1.634,
+                "median": 1.052
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.483,
+                "median": -1.59
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.154,
+                "median": -0.78
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.162,
+                "median": -1.661
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -1.102,
+                "median": -2.15
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 1.198,
+                "median": -1.479
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 4.146,
+                "median": -0.061
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.438,
+                "median": -2.524
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -1.284,
+                "median": -3.9
+              }
+            ]
+          }
+        }
+      }
+    },
+    "recent_meetings": [
+      {
+        "date": "2026-10-28",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2026-09-16",
+        "decision": "hike",
+        "change_bp": 25.0
+      },
+      {
+        "date": "2026-07-29",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2026-06-17",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2026-04-29",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2026-03-18",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2026-01-28",
+        "decision": "hold",
+        "change_bp": 0.0
+      },
+      {
+        "date": "2025-12-10",
+        "decision": "cut",
+        "change_bp": -25.0
+      }
+    ]
+  },
+  "nfp": {
+    "all_1994": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 393,
+            "pre5_mean": 0.0028,
+            "pre5_median": 0.005,
+            "pre5_win": 0.6031,
+            "pre5_t": 2.4551,
+            "day0_mean": 0.0013,
+            "day0_median": 0.0018,
+            "day0_win": 0.5751,
+            "day0_t": 2.0571,
+            "post5_mean": 0.0004,
+            "post5_median": 0.0017,
+            "post5_win": 0.5394,
+            "post5_t": 0.3397,
+            "absday0_mean": 0.0091,
+            "vol_ratio": 1.1681,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5394,
+            "base_d5_mean": 0.002,
+            "base_d5_win": 0.5798
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 393,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.203,
+                "median": -0.464
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.148,
+                "median": -0.249
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.097,
+                "median": -0.219
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.064,
+                "median": -0.048
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.126,
+                "median": 0.18
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.129,
+                "median": 0.303
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.114,
+                "median": 0.194
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.08,
+                "median": 0.301
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.12,
+                "median": 0.39
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.167,
+                "median": 0.442
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 393,
+            "pre5_mean": 0.0029,
+            "pre5_median": 0.0045,
+            "pre5_win": 0.5751,
+            "pre5_t": 1.7889,
+            "day0_mean": 0.0018,
+            "day0_median": 0.0019,
+            "day0_win": 0.57,
+            "day0_t": 1.9095,
+            "post5_mean": 0.0023,
+            "post5_median": 0.0033,
+            "post5_win": 0.5547,
+            "post5_t": 1.2488,
+            "absday0_mean": 0.0133,
+            "vol_ratio": 1.1402,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5474,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.577
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 393,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.186,
+                "median": -0.261
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.171,
+                "median": -0.163
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.175,
+                "median": -0.166
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.054,
+                "median": -0.127
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.176,
+                "median": 0.192
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.234,
+                "median": 0.411
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.196,
+                "median": 0.349
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.278,
+                "median": 0.601
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.378,
+                "median": 0.745
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.401,
+                "median": 0.613
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 389,
+            "pre5_mean": 0.0039,
+            "pre5_median": 0.005,
+            "pre5_win": 0.5501,
+            "pre5_t": 1.5991,
+            "day0_mean": 0.0036,
+            "day0_median": 0.0047,
+            "day0_win": 0.5835,
+            "day0_t": 2.7614,
+            "post5_mean": 0.0031,
+            "post5_median": 0.0024,
+            "post5_win": 0.5193,
+            "post5_t": 1.1515,
+            "absday0_mean": 0.019,
+            "vol_ratio": 1.109,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5234,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5463
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 389,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.161,
+                "median": -0.354
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.175,
+                "median": -0.28
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.219,
+                "median": -0.37
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.096,
+                "median": -0.113
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.361,
+                "median": 0.465
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.454,
+                "median": 0.615
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.369,
+                "median": 0.405
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.525,
+                "median": 0.868
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.647,
+                "median": 0.802
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.66,
+                "median": 0.727
+              }
+            ]
+          }
+        }
+      },
+      "^VIX": {
+        "stats": {
+          "all": {
+            "n": 393,
+            "pre5_mean": 0.0223,
+            "pre5_median": 0.0041,
+            "pre5_win": 0.5115,
+            "pre5_t": 3.1363,
+            "day0_mean": -0.0142,
+            "day0_median": -0.0259,
+            "day0_win": 0.313,
+            "day0_t": -3.4111,
+            "post5_mean": 0.0127,
+            "post5_median": -0.008,
+            "post5_win": 0.4606,
+            "post5_t": 1.7022,
+            "absday0_mean": 0.0597,
+            "vol_ratio": 1.198,
+            "base_day_mean": 0.0025,
+            "base_day_win": 0.4634,
+            "base_d5_mean": 0.0099,
+            "base_d5_win": 0.4709
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 393,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.998,
+                "median": -1.175
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.398,
+                "median": -0.068
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.585,
+                "median": 0.641
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.469,
+                "median": 0.44
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -1.415,
+                "median": -2.591
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 1.102,
+                "median": -0.942
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.826,
+                "median": -0.614
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.522,
+                "median": -1.118
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.932,
+                "median": -1.613
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -0.381,
+                "median": -2.491
+              }
+            ]
+          }
+        }
+      }
+    },
+    "recent_2022": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 58,
+            "pre5_mean": 0.0012,
+            "pre5_median": 0.0029,
+            "pre5_win": 0.5862,
+            "pre5_t": 0.392,
+            "day0_mean": -0.0006,
+            "day0_median": 0.0018,
+            "day0_win": 0.5517,
+            "day0_t": -0.3524,
+            "post5_mean": 0.0067,
+            "post5_median": 0.0055,
+            "post5_win": 0.569,
+            "post5_t": 2.2476,
+            "absday0_mean": 0.0098,
+            "vol_ratio": 1.2768,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5297,
+            "base_d5_mean": 0.0022,
+            "base_d5_win": 0.5745
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 58,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.117,
+                "median": 0.151
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.269,
+                "median": 0.376
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.18,
+                "median": 0.245
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.351,
+                "median": 0.172
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.063,
+                "median": 0.181
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.151,
+                "median": 0.068
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.004,
+                "median": 0.302
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.373,
+                "median": 0.809
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.502,
+                "median": 0.884
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.602,
+                "median": 0.978
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 58,
+            "pre5_mean": 0.0022,
+            "pre5_median": 0.0045,
+            "pre5_win": 0.5862,
+            "pre5_t": 0.4869,
+            "day0_mean": -0.0012,
+            "day0_median": 0.0015,
+            "day0_win": 0.5517,
+            "day0_t": -0.5299,
+            "post5_mean": 0.01,
+            "post5_median": 0.005,
+            "post5_win": 0.5862,
+            "post5_t": 2.5065,
+            "absday0_mean": 0.0138,
+            "vol_ratio": 1.2753,
+            "base_day_mean": 0.0006,
+            "base_day_win": 0.5462,
+            "base_d5_mean": 0.0028,
+            "base_d5_win": 0.5695
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 58,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.09,
+                "median": 0.03
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.295,
+                "median": 0.626
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.23,
+                "median": 0.225
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 0.453,
+                "median": 0.149
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.124,
+                "median": 0.15
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": -0.128,
+                "median": 0.139
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.034,
+                "median": 0.383
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.572,
+                "median": 0.993
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.775,
+                "median": 0.953
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 0.874,
+                "median": 1.32
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 58,
+            "pre5_mean": -0.0039,
+            "pre5_median": -0.0053,
+            "pre5_win": 0.4483,
+            "pre5_t": -0.5134,
+            "day0_mean": -0.0006,
+            "day0_median": 0.005,
+            "day0_win": 0.569,
+            "day0_t": -0.1423,
+            "post5_mean": 0.0192,
+            "post5_median": 0.0185,
+            "post5_win": 0.6552,
+            "post5_t": 2.8969,
+            "absday0_mean": 0.0248,
+            "vol_ratio": 1.3291,
+            "base_day_mean": 0.0011,
+            "base_day_win": 0.5421,
+            "base_d5_mean": 0.0053,
+            "base_d5_win": 0.5464
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 58,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": 0.707,
+                "median": 0.988
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": 0.742,
+                "median": 1.17
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": 0.655,
+                "median": 0.269
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": 1.001,
+                "median": 0.531
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": -0.061,
+                "median": 0.504
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.297,
+                "median": 0.451
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.512,
+                "median": 0.546
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.386,
+                "median": 1.538
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.864,
+                "median": 1.976
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.848,
+                "median": 2.103
+              }
+            ]
+          }
+        }
+      },
+      "^VIX": {
+        "stats": {
+          "all": {
+            "n": 58,
+            "pre5_mean": 0.0514,
+            "pre5_median": 0.0089,
+            "pre5_win": 0.5345,
+            "pre5_t": 2.2365,
+            "day0_mean": 0.0079,
+            "day0_median": -0.0276,
+            "day0_win": 0.3276,
+            "day0_t": 0.5195,
+            "post5_mean": -0.0359,
+            "post5_median": -0.0364,
+            "post5_win": 0.3448,
+            "post5_t": -2.196,
+            "absday0_mean": 0.0715,
+            "vol_ratio": 1.3359,
+            "base_day_mean": 0.0032,
+            "base_day_win": 0.4407,
+            "base_d5_mean": 0.0122,
+            "base_d5_win": 0.4645
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 58,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -3.553,
+                "median": -0.851
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -2.871,
+                "median": -1.427
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -1.388,
+                "median": -1.183
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -2.764,
+                "median": 0.046
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.789,
+                "median": -2.757
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 3.02,
+                "median": 0.005
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.804,
+                "median": 0.033
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": -2.119,
+                "median": -3.312
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": -2.383,
+                "median": -2.535
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": -3.425,
+                "median": -5.042
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "midterm": {
+    "short_1950": {
+      "^GSPC": {
+        "stats": {
+          "all": {
+            "n": 20,
+            "pre5_mean": 0.0131,
+            "pre5_median": 0.0114,
+            "pre5_win": 0.7,
+            "pre5_t": 2.6517,
+            "day0_mean": 0.0059,
+            "day0_median": 0.0062,
+            "day0_win": 0.8,
+            "day0_t": 2.8827,
+            "post5_mean": 0.0085,
+            "post5_median": 0.0127,
+            "post5_win": 0.7,
+            "post5_t": 1.9711,
+            "absday0_mean": 0.0086,
+            "vol_ratio": 1.2964,
+            "base_day_mean": 0.0004,
+            "base_day_win": 0.5309,
+            "base_d5_mean": 0.0018,
+            "base_d5_win": 0.5671
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 20,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -0.956,
+                "median": -0.599
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.586,
+                "median": -0.515
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.482,
+                "median": -0.387
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.231,
+                "median": -0.396
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.594,
+                "median": 0.621
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 1.103,
+                "median": 1.1
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 1.203,
+                "median": 1.047
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 1.461,
+                "median": 1.205
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.358,
+                "median": 1.472
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.449,
+                "median": 1.291
+              }
+            ]
+          }
+        }
+      },
+      "^NDX": {
+        "stats": {
+          "all": {
+            "n": 11,
+            "pre5_mean": 0.0126,
+            "pre5_median": 0.0215,
+            "pre5_win": 0.7273,
+            "pre5_t": 1.1238,
+            "day0_mean": 0.0047,
+            "day0_median": 0.0068,
+            "day0_win": 0.7273,
+            "day0_t": 1.9479,
+            "post5_mean": 0.0135,
+            "post5_median": 0.0107,
+            "post5_win": 0.6364,
+            "post5_t": 1.2376,
+            "absday0_mean": 0.0076,
+            "vol_ratio": 0.6784,
+            "base_day_mean": 0.0007,
+            "base_day_win": 0.5478,
+            "base_d5_mean": 0.0032,
+            "base_d5_win": 0.5761
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 11,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -1.008,
+                "median": -1.503
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.822,
+                "median": -1.16
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.71,
+                "median": -1.275
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.656,
+                "median": -0.266
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.465,
+                "median": 0.68
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 0.892,
+                "median": 1.072
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": 0.652,
+                "median": 0.455
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.952,
+                "median": 1.088
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 1.211,
+                "median": 2.063
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.811,
+                "median": 2.277
+              }
+            ]
+          }
+        }
+      },
+      "^SOX": {
+        "stats": {
+          "all": {
+            "n": 9,
+            "pre5_mean": 0.0283,
+            "pre5_median": 0.0296,
+            "pre5_win": 0.6667,
+            "pre5_t": 1.5432,
+            "day0_mean": 0.0059,
+            "day0_median": 0.0114,
+            "day0_win": 0.6667,
+            "day0_t": 0.8417,
+            "post5_mean": 0.0114,
+            "post5_median": 0.0103,
+            "post5_win": 0.5556,
+            "post5_t": 0.5382,
+            "absday0_mean": 0.0186,
+            "vol_ratio": 1.0817,
+            "base_day_mean": 0.0008,
+            "base_day_win": 0.5234,
+            "base_d5_mean": 0.004,
+            "base_d5_win": 0.5463
+          }
+        },
+        "curves": {
+          "all": {
+            "n": 9,
+            "points": [
+              {
+                "day": -5,
+                "label": "T-5",
+                "mean": -1.908,
+                "median": -3.255
+              },
+              {
+                "day": -4,
+                "label": "T-4",
+                "mean": -0.733,
+                "median": -2.141
+              },
+              {
+                "day": -3,
+                "label": "T-3",
+                "mean": -0.72,
+                "median": -0.644
+              },
+              {
+                "day": -2,
+                "label": "T-2",
+                "mean": -0.362,
+                "median": -0.523
+              },
+              {
+                "day": -1,
+                "label": "T-1",
+                "mean": 0.0,
+                "median": 0.0
+              },
+              {
+                "day": 0,
+                "label": "T0",
+                "mean": 0.586,
+                "median": 1.142
+              },
+              {
+                "day": 1,
+                "label": "T+1",
+                "mean": 1.248,
+                "median": 1.712
+              },
+              {
+                "day": 2,
+                "label": "T+2",
+                "mean": -0.11,
+                "median": 1.389
+              },
+              {
+                "day": 3,
+                "label": "T+3",
+                "mean": 0.69,
+                "median": 0.925
+              },
+              {
+                "day": 4,
+                "label": "T+4",
+                "mean": 0.726,
+                "median": 2.503
+              },
+              {
+                "day": 5,
+                "label": "T+5",
+                "mean": 1.747,
+                "median": 3.484
+              }
+            ]
+          }
+        }
+      }
+    },
+    "long_stats": {
+      "1m": {
+        "n": 19,
+        "mean": 0.0193,
+        "median": 0.0247,
+        "win": 0.7895,
+        "min": -0.0951,
+        "max": 0.0849,
+        "base_mean": 0.0076,
+        "base_win": 0.618
+      },
+      "3m": {
+        "n": 19,
+        "mean": 0.0771,
+        "median": 0.0803,
+        "win": 0.8947,
+        "min": -0.0773,
+        "max": 0.1571,
+        "base_mean": 0.0228,
+        "base_win": 0.6684
+      },
+      "6m": {
+        "n": 19,
+        "mean": 0.1406,
+        "median": 0.1534,
+        "win": 1.0,
+        "min": 0.0131,
+        "max": 0.2427,
+        "base_mean": 0.0462,
+        "base_win": 0.7078
+      },
+      "12m": {
+        "n": 19,
+        "mean": 0.1532,
+        "median": 0.142,
+        "win": 1.0,
+        "min": 0.0204,
+        "max": 0.33,
+        "base_mean": 0.0942,
+        "base_win": 0.7469
+      }
+    },
+    "now_2026": {
+      "trading_days_since": 14.0,
+      "ret_2026": -0.0837,
+      "hist_mean_same_horizon": 0.011,
+      "hist_win_same_horizon": 0.7895,
+      "last_date": "2026-11-20"
+    },
+    "long_series": {
+      "n_completed": 19,
+      "points": [
+        {
+          "day": 0,
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "p25": 0.0,
+          "p75": 0.0,
+          "y1974": 0.0,
+          "y2018": 0.0,
+          "y2022": 0.0,
+          "y2026": 0.0
+        },
+        {
+          "day": 1,
+          "avg": 0.61,
+          "min": -1.41,
+          "max": 2.78,
+          "p25": 0.19,
+          "p75": 0.88,
+          "y1974": 2.78,
+          "y2018": 0.63,
+          "y2022": 0.56,
+          "y2026": 0.36
+        },
+        {
+          "day": 2,
+          "avg": 1.06,
+          "min": -2.73,
+          "max": 5.46,
+          "p25": 0.3,
+          "p75": 1.97,
+          "y1974": 2.29,
+          "y2018": 2.76,
+          "y2022": -1.53,
+          "y2026": 1.95
+        },
+        {
+          "day": 3,
+          "avg": 1.4,
+          "min": -2.22,
+          "max": 4.71,
+          "p25": 0.15,
+          "p75": 2.9,
+          "y1974": 2.91,
+          "y2018": 2.5,
+          "y2022": 3.93,
+          "y2026": -2.49
+        },
+        {
+          "day": 4,
+          "avg": 1.65,
+          "min": -1.5,
+          "max": 4.94,
+          "p25": 0.03,
+          "p75": 3.0,
+          "y1974": 2.5,
+          "y2018": 1.56,
+          "y2022": 4.89,
+          "y2026": -2.18
+        },
+        {
+          "day": 5,
+          "avg": 1.42,
+          "min": -3.54,
+          "max": 4.28,
+          "p25": 0.49,
+          "p75": 2.79,
+          "y1974": 2.83,
+          "y2018": -0.44,
+          "y2022": 3.95,
+          "y2026": 0.11
+        },
+        {
+          "day": 6,
+          "avg": 1.54,
+          "min": -2.84,
+          "max": 5.57,
+          "p25": 0.66,
+          "p75": 2.67,
+          "y1974": 0.81,
+          "y2018": -0.59,
+          "y2022": 4.86,
+          "y2026": -0.27
+        },
+        {
+          "day": 7,
+          "avg": 1.37,
+          "min": -2.84,
+          "max": 5.28,
+          "p25": 0.46,
+          "p75": 2.62,
+          "y1974": 0.37,
+          "y2018": -1.34,
+          "y2022": 3.99,
+          "y2026": 1.03
+        },
+        {
+          "day": 8,
+          "avg": 1.41,
+          "min": -1.55,
+          "max": 5.5,
+          "p25": 0.04,
+          "p75": 2.78,
+          "y1974": -0.03,
+          "y2018": -0.3,
+          "y2022": 3.67,
+          "y2026": 0.68
+        },
+        {
+          "day": 9,
+          "avg": 1.21,
+          "min": -1.6,
+          "max": 5.28,
+          "p25": -0.26,
+          "p75": 2.73,
+          "y1974": -1.6,
+          "y2018": -0.07,
+          "y2022": 4.16,
+          "y2026": 0.27
+        },
+        {
+          "day": 10,
+          "avg": 0.83,
+          "min": -5.21,
+          "max": 5.6,
+          "p25": -0.95,
+          "p75": 2.43,
+          "y1974": -5.21,
+          "y2018": -1.74,
+          "y2022": 3.76,
+          "y2026": -1.65
+        },
+        {
+          "day": 11,
+          "avg": 0.48,
+          "min": -6.68,
+          "max": 5.79,
+          "p25": -0.96,
+          "p75": 2.84,
+          "y1974": -6.68,
+          "y2018": -3.52,
+          "y2022": 5.17,
+          "y2026": -2.66
+        },
+        {
+          "day": 12,
+          "avg": 0.87,
+          "min": -7.09,
+          "max": 5.79,
+          "p25": -0.68,
+          "p75": 3.08,
+          "y1974": -7.09,
+          "y2018": -3.23,
+          "y2022": 5.79,
+          "y2026": -2.89
+        },
+        {
+          "day": 13,
+          "avg": 1.11,
+          "min": -6.7,
+          "max": 5.76,
+          "p25": -0.37,
+          "p75": 3.24,
+          "y1974": -6.7,
+          "y2018": -3.86,
+          "y2022": 5.76,
+          "y2026": -4.85
+        },
+        {
+          "day": 14,
+          "avg": 1.1,
+          "min": -5.72,
+          "max": 5.79,
+          "p25": 0.09,
+          "p75": 2.35,
+          "y1974": -5.72,
+          "y2018": -2.37,
+          "y2022": 4.13,
+          "y2026": -8.37
+        },
+        {
+          "day": 15,
+          "avg": 1.16,
+          "min": -5.82,
+          "max": 7.05,
+          "p25": -0.63,
+          "p75": 2.63,
+          "y1974": -5.82,
+          "y2018": -2.05,
+          "y2022": 3.96,
+          "y2026": null
+        },
+        {
+          "day": 16,
+          "avg": 1.39,
+          "min": -4.94,
+          "max": 7.64,
+          "p25": -0.56,
+          "p75": 1.98,
+          "y1974": -4.94,
+          "y2018": 0.2,
+          "y2022": 7.18,
+          "y2026": null
+        },
+        {
+          "day": 17,
+          "avg": 1.85,
+          "min": -4.3,
+          "max": 8.68,
+          "p25": -0.27,
+          "p75": 3.04,
+          "y1974": -4.3,
+          "y2018": -0.02,
+          "y2022": 7.09,
+          "y2026": null
+        },
+        {
+          "day": 18,
+          "avg": 1.99,
+          "min": -4.26,
+          "max": 8.65,
+          "p25": -0.01,
+          "p75": 2.99,
+          "y1974": -4.26,
+          "y2018": 0.8,
+          "y2022": 6.96,
+          "y2026": null
+        },
+        {
+          "day": 19,
+          "avg": 1.86,
+          "min": -6.8,
+          "max": 7.71,
+          "p25": 0.21,
+          "p75": 3.72,
+          "y1974": -6.8,
+          "y2018": 1.9,
+          "y2022": 5.04,
+          "y2026": null
+        },
+        {
+          "day": 20,
+          "avg": 1.97,
+          "min": -8.09,
+          "max": 6.92,
+          "p25": 0.85,
+          "p75": 3.64,
+          "y1974": -8.09,
+          "y2018": -1.4,
+          "y2022": 3.53,
+          "y2026": null
+        },
+        {
+          "day": 21,
+          "avg": 2.26,
+          "min": -7.76,
+          "max": 7.85,
+          "p25": 1.33,
+          "p75": 4.11,
+          "y1974": -7.76,
+          "y2018": -1.55,
+          "y2022": 3.34,
+          "y2026": null
+        },
+        {
+          "day": 22,
+          "avg": 1.93,
+          "min": -9.51,
+          "max": 8.49,
+          "p25": 0.98,
+          "p75": 3.79,
+          "y1974": -9.51,
+          "y2018": -3.84,
+          "y2022": 4.12,
+          "y2026": null
+        },
+        {
+          "day": 25,
+          "avg": 2.58,
+          "min": -7.94,
+          "max": 9.66,
+          "p25": 1.44,
+          "p75": 5.47,
+          "y1974": -7.94,
+          "y2018": -3.19,
+          "y2022": 5.59,
+          "y2026": null
+        },
+        {
+          "day": 28,
+          "avg": 1.76,
+          "min": -8.22,
+          "max": 8.81,
+          "p25": -0.31,
+          "p75": 4.31,
+          "y1974": -8.22,
+          "y2018": -7.03,
+          "y2022": 1.2,
+          "y2026": null
+        },
+        {
+          "day": 31,
+          "avg": 1.76,
+          "min": -9.89,
+          "max": 9.88,
+          "p25": -0.39,
+          "p75": 4.75,
+          "y1974": -7.09,
+          "y2018": -9.89,
+          "y2022": 1.88,
+          "y2026": null
+        },
+        {
+          "day": 34,
+          "avg": 2.28,
+          "min": -9.88,
+          "max": 11.29,
+          "p25": 0.22,
+          "p75": 5.08,
+          "y1974": -9.74,
+          "y2018": -9.88,
+          "y2022": 0.59,
+          "y2026": null
+        },
+        {
+          "day": 37,
+          "avg": 2.73,
+          "min": -8.45,
+          "max": 10.32,
+          "p25": 0.01,
+          "p75": 6.91,
+          "y1974": -8.13,
+          "y2018": -8.45,
+          "y2022": 0.86,
+          "y2026": null
+        },
+        {
+          "day": 40,
+          "avg": 3.61,
+          "min": -7.54,
+          "max": 12.43,
+          "p25": 0.05,
+          "p75": 7.88,
+          "y1974": -3.9,
+          "y2018": -7.54,
+          "y2022": 0.03,
+          "y2026": null
+        },
+        {
+          "day": 43,
+          "avg": 4.22,
+          "min": -5.6,
+          "max": 14.56,
+          "p25": 0.85,
+          "p75": 7.57,
+          "y1974": -2.82,
+          "y2018": -5.6,
+          "y2022": 2.95,
+          "y2026": null
+        },
+        {
+          "day": 46,
+          "avg": 5.36,
+          "min": -5.69,
+          "max": 14.71,
+          "p25": 1.73,
+          "p75": 8.8,
+          "y1974": -0.64,
+          "y2018": -5.69,
+          "y2022": 5.05,
+          "y2026": null
+        },
+        {
+          "day": 49,
+          "avg": 5.31,
+          "min": -3.74,
+          "max": 11.92,
+          "p25": 1.26,
+          "p75": 9.39,
+          "y1974": -1.29,
+          "y2018": -3.74,
+          "y2022": 2.42,
+          "y2026": null
+        },
+        {
+          "day": 52,
+          "avg": 5.81,
+          "min": -3.64,
+          "max": 12.63,
+          "p25": 2.48,
+          "p75": 9.38,
+          "y1974": -2.74,
+          "y2018": -3.64,
+          "y2022": 5.52,
+          "y2026": null
+        },
+        {
+          "day": 55,
+          "avg": 5.97,
+          "min": -5.17,
+          "max": 12.97,
+          "p25": 2.32,
+          "p75": 10.02,
+          "y1974": -1.38,
+          "y2018": -3.45,
+          "y2022": 6.93,
+          "y2026": null
+        },
+        {
+          "day": 58,
+          "avg": 6.59,
+          "min": -4.84,
+          "max": 14.47,
+          "p25": 3.68,
+          "p75": 11.54,
+          "y1974": 4.04,
+          "y2018": -1.25,
+          "y2022": 8.21,
+          "y2026": null
+        },
+        {
+          "day": 61,
+          "avg": 7.49,
+          "min": -5.29,
+          "max": 14.81,
+          "p25": 4.74,
+          "p75": 12.45,
+          "y1974": 5.34,
+          "y2018": -0.02,
+          "y2022": 7.99,
+          "y2026": null
+        },
+        {
+          "day": 63,
+          "avg": 7.81,
+          "min": -7.13,
+          "max": 15.51,
+          "p25": 4.4,
+          "p75": 12.93,
+          "y1974": 6.2,
+          "y2018": -1.18,
+          "y2022": 8.17,
+          "y2026": null
+        },
+        {
+          "day": 64,
+          "avg": 7.71,
+          "min": -7.73,
+          "max": 15.71,
+          "p25": 4.07,
+          "p75": 13.58,
+          "y1974": 8.03,
+          "y2018": -1.11,
+          "y2022": 7.22,
+          "y2026": null
+        },
+        {
+          "day": 67,
+          "avg": 8.24,
+          "min": -8.71,
+          "max": 17.16,
+          "p25": 4.71,
+          "p75": 12.99,
+          "y1974": 7.22,
+          "y2018": 0.54,
+          "y2022": 8.65,
+          "y2026": null
+        },
+        {
+          "day": 70,
+          "avg": 8.52,
+          "min": -8.09,
+          "max": 17.24,
+          "p25": 5.24,
+          "p75": 12.45,
+          "y1974": 10.85,
+          "y2018": 1.51,
+          "y2022": 7.15,
+          "y2026": null
+        },
+        {
+          "day": 73,
+          "avg": 8.95,
+          "min": -7.84,
+          "max": 17.59,
+          "p25": 4.96,
+          "p75": 13.02,
+          "y1974": 11.44,
+          "y2018": 1.99,
+          "y2022": 5.4,
+          "y2026": null
+        },
+        {
+          "day": 76,
+          "avg": 8.54,
+          "min": -7.68,
+          "max": 16.74,
+          "p25": 4.38,
+          "p75": 13.87,
+          "y1974": 11.44,
+          "y2018": 1.97,
+          "y2022": 4.29,
+          "y2026": null
+        },
+        {
+          "day": 79,
+          "avg": 8.15,
+          "min": -7.4,
+          "max": 16.68,
+          "p25": 4.53,
+          "p75": 11.98,
+          "y1974": 10.52,
+          "y2018": 1.99,
+          "y2022": 6.27,
+          "y2026": null
+        },
+        {
+          "day": 82,
+          "avg": 8.64,
+          "min": -8.64,
+          "max": 19.75,
+          "p25": 4.06,
+          "p75": 13.86,
+          "y1974": 14.34,
+          "y2018": 0.39,
+          "y2022": 4.87,
+          "y2026": null
+        },
+        {
+          "day": 85,
+          "avg": 9.29,
+          "min": -11.1,
+          "max": 19.19,
+          "p25": 3.81,
+          "p75": 15.37,
+          "y1974": 15.35,
+          "y2018": 1.94,
+          "y2022": 1.29,
+          "y2026": null
+        },
+        {
+          "day": 88,
+          "avg": 9.61,
+          "min": -8.42,
+          "max": 19.07,
+          "p25": 4.39,
+          "p75": 14.16,
+          "y1974": 14.38,
+          "y2018": 3.07,
+          "y2022": 4.03,
+          "y2026": null
+        },
+        {
+          "day": 91,
+          "avg": 10.05,
+          "min": -4.61,
+          "max": 20.6,
+          "p25": 5.66,
+          "p75": 14.73,
+          "y1974": 17.69,
+          "y2018": 3.14,
+          "y2022": 5.15,
+          "y2026": null
+        },
+        {
+          "day": 94,
+          "avg": 10.19,
+          "min": -1.38,
+          "max": 21.17,
+          "p25": 5.64,
+          "p75": 14.01,
+          "y1974": 14.41,
+          "y2018": 2.19,
+          "y2022": 4.31,
+          "y2026": null
+        },
+        {
+          "day": 97,
+          "avg": 10.28,
+          "min": -4.23,
+          "max": 22.72,
+          "p25": 6.73,
+          "p75": 13.95,
+          "y1974": 12.29,
+          "y2018": 2.82,
+          "y2022": 5.81,
+          "y2026": null
+        },
+        {
+          "day": 100,
+          "avg": 10.69,
+          "min": -6.62,
+          "max": 20.48,
+          "p25": 7.37,
+          "p75": 15.42,
+          "y1974": 14.07,
+          "y2018": 4.71,
+          "y2022": 8.35,
+          "y2026": null
+        },
+        {
+          "day": 103,
+          "avg": 11.02,
+          "min": -3.51,
+          "max": 20.72,
+          "p25": 7.84,
+          "p75": 15.58,
+          "y1974": 11.54,
+          "y2018": 5.64,
+          "y2022": 7.83,
+          "y2026": null
+        },
+        {
+          "day": 106,
+          "avg": 11.48,
+          "min": -3.31,
+          "max": 22.84,
+          "p25": 7.78,
+          "p75": 16.58,
+          "y1974": 10.82,
+          "y2018": 5.47,
+          "y2022": 7.49,
+          "y2026": null
+        },
+        {
+          "day": 109,
+          "avg": 12.39,
+          "min": -4.41,
+          "max": 22.26,
+          "p25": 8.1,
+          "p75": 17.93,
+          "y1974": 15.19,
+          "y2018": 6.11,
+          "y2022": 9.05,
+          "y2026": null
+        },
+        {
+          "day": 112,
+          "avg": 12.69,
+          "min": -3.13,
+          "max": 24.11,
+          "p25": 8.03,
+          "p75": 18.28,
+          "y1974": 18.5,
+          "y2018": 6.09,
+          "y2022": 8.48,
+          "y2026": null
+        },
+        {
+          "day": 115,
+          "avg": 13.25,
+          "min": 0.33,
+          "max": 24.55,
+          "p25": 7.67,
+          "p75": 18.33,
+          "y1974": 19.36,
+          "y2018": 6.9,
+          "y2022": 6.96,
+          "y2026": null
+        },
+        {
+          "day": 118,
+          "avg": 13.87,
+          "min": -1.05,
+          "max": 24.01,
+          "p25": 8.5,
+          "p75": 19.04,
+          "y1974": 17.73,
+          "y2018": 7.48,
+          "y2022": 9.53,
+          "y2026": null
+        },
+        {
+          "day": 121,
+          "avg": 13.77,
+          "min": 0.94,
+          "max": 25.24,
+          "p25": 8.17,
+          "p75": 18.57,
+          "y1974": 17.19,
+          "y2018": 6.54,
+          "y2022": 7.46,
+          "y2026": null
+        },
+        {
+          "day": 124,
+          "avg": 14.46,
+          "min": 2.0,
+          "max": 24.48,
+          "p25": 8.99,
+          "p75": 19.85,
+          "y1974": 22.09,
+          "y2018": 5.32,
+          "y2022": 8.7,
+          "y2026": null
+        },
+        {
+          "day": 126,
+          "avg": 14.01,
+          "min": 2.34,
+          "max": 24.28,
+          "p25": 8.39,
+          "p75": 19.96,
+          "y1974": 21.29,
+          "y2018": 4.84,
+          "y2022": 8.69,
+          "y2026": null
+        },
+        {
+          "day": 127,
+          "avg": 14.06,
+          "min": 1.31,
+          "max": 24.27,
+          "p25": 8.82,
+          "p75": 20.02,
+          "y1974": 21.89,
+          "y2018": 5.23,
+          "y2022": 8.51,
+          "y2026": null
+        },
+        {
+          "day": 130,
+          "avg": 14.17,
+          "min": 3.02,
+          "max": 23.99,
+          "p25": 8.85,
+          "p75": 20.04,
+          "y1974": 23.99,
+          "y2018": 4.11,
+          "y2022": 7.96,
+          "y2026": null
+        },
+        {
+          "day": 133,
+          "avg": 14.1,
+          "min": 3.72,
+          "max": 25.08,
+          "p25": 10.33,
+          "p75": 20.03,
+          "y1974": 25.08,
+          "y2018": 3.72,
+          "y2022": 10.12,
+          "y2026": null
+        },
+        {
+          "day": 136,
+          "avg": 13.04,
+          "min": 1.66,
+          "max": 23.25,
+          "p25": 8.42,
+          "p75": 19.76,
+          "y1974": 23.25,
+          "y2018": 3.07,
+          "y2022": 8.1,
+          "y2026": null
+        },
+        {
+          "day": 139,
+          "avg": 13.33,
+          "min": 1.63,
+          "max": 23.95,
+          "p25": 10.38,
+          "p75": 19.15,
+          "y1974": 23.95,
+          "y2018": 1.63,
+          "y2022": 10.47,
+          "y2026": null
+        },
+        {
+          "day": 142,
+          "avg": 13.72,
+          "min": 0.22,
+          "max": 23.0,
+          "p25": 10.47,
+          "p75": 18.77,
+          "y1974": 22.71,
+          "y2018": 0.22,
+          "y2022": 12.49,
+          "y2026": null
+        },
+        {
+          "day": 145,
+          "avg": 14.47,
+          "min": 3.84,
+          "max": 27.11,
+          "p25": 9.97,
+          "p75": 19.62,
+          "y1974": 27.11,
+          "y2018": 3.84,
+          "y2022": 12.1,
+          "y2026": null
+        },
+        {
+          "day": 148,
+          "avg": 14.38,
+          "min": 3.05,
+          "max": 26.55,
+          "p25": 8.99,
+          "p75": 20.33,
+          "y1974": 26.55,
+          "y2018": 5.38,
+          "y2022": 13.98,
+          "y2026": null
+        },
+        {
+          "day": 151,
+          "avg": 14.94,
+          "min": 4.51,
+          "max": 23.91,
+          "p25": 10.48,
+          "p75": 20.12,
+          "y1974": 23.91,
+          "y2018": 5.43,
+          "y2022": 16.26,
+          "y2026": null
+        },
+        {
+          "day": 154,
+          "avg": 15.09,
+          "min": 3.89,
+          "max": 25.15,
+          "p25": 9.67,
+          "p75": 20.05,
+          "y1974": 25.15,
+          "y2018": 6.87,
+          "y2022": 14.68,
+          "y2026": null
+        },
+        {
+          "day": 157,
+          "avg": 15.38,
+          "min": 4.57,
+          "max": 25.92,
+          "p25": 9.08,
+          "p75": 20.6,
+          "y1974": 25.92,
+          "y2018": 7.56,
+          "y2022": 13.71,
+          "y2026": null
+        },
+        {
+          "day": 160,
+          "avg": 15.27,
+          "min": 4.5,
+          "max": 28.89,
+          "p25": 9.06,
+          "p75": 19.44,
+          "y1974": 28.89,
+          "y2018": 6.81,
+          "y2022": 15.49,
+          "y2026": null
+        },
+        {
+          "day": 163,
+          "avg": 15.58,
+          "min": 1.97,
+          "max": 29.73,
+          "p25": 9.12,
+          "p75": 18.89,
+          "y1974": 29.73,
+          "y2018": 8.57,
+          "y2022": 16.81,
+          "y2026": null
+        },
+        {
+          "day": 166,
+          "avg": 16.29,
+          "min": 2.92,
+          "max": 28.87,
+          "p25": 10.7,
+          "p75": 21.32,
+          "y1974": 28.87,
+          "y2018": 8.68,
+          "y2022": 15.83,
+          "y2026": null
+        },
+        {
+          "day": 169,
+          "avg": 17.4,
+          "min": 1.43,
+          "max": 31.14,
+          "p25": 12.39,
+          "p75": 22.14,
+          "y1974": 27.79,
+          "y2018": 9.55,
+          "y2022": 18.47,
+          "y2026": null
+        },
+        {
+          "day": 172,
+          "avg": 17.9,
+          "min": 4.05,
+          "max": 34.13,
+          "p25": 12.76,
+          "p75": 22.3,
+          "y1974": 29.53,
+          "y2018": 9.7,
+          "y2022": 19.65,
+          "y2026": null
+        },
+        {
+          "day": 175,
+          "avg": 17.31,
+          "min": 5.28,
+          "max": 32.87,
+          "p25": 11.22,
+          "p75": 21.68,
+          "y1974": 29.46,
+          "y2018": 8.7,
+          "y2022": 19.16,
+          "y2026": null
+        },
+        {
+          "day": 178,
+          "avg": 17.12,
+          "min": 5.03,
+          "max": 33.25,
+          "p25": 10.25,
+          "p75": 21.49,
+          "y1974": 26.49,
+          "y2018": 10.27,
+          "y2022": 19.96,
+          "y2026": null
+        },
+        {
+          "day": 181,
+          "avg": 17.42,
+          "min": 3.06,
+          "max": 34.13,
+          "p25": 11.89,
+          "p75": 22.07,
+          "y1974": 23.25,
+          "y2018": 10.32,
+          "y2022": 20.55,
+          "y2026": null
+        },
+        {
+          "day": 184,
+          "avg": 17.57,
+          "min": 4.5,
+          "max": 37.09,
+          "p25": 10.76,
+          "p75": 21.84,
+          "y1974": 20.68,
+          "y2018": 7.86,
+          "y2022": 18.26,
+          "y2026": null
+        },
+        {
+          "day": 187,
+          "avg": 16.95,
+          "min": 3.98,
+          "max": 36.9,
+          "p25": 9.2,
+          "p75": 20.55,
+          "y1974": 20.4,
+          "y2018": 5.24,
+          "y2022": 18.19,
+          "y2026": null
+        },
+        {
+          "day": 189,
+          "avg": 16.22,
+          "min": 4.07,
+          "max": 35.36,
+          "p25": 9.14,
+          "p75": 19.76,
+          "y1974": 17.99,
+          "y2018": 7.3,
+          "y2022": 17.39,
+          "y2026": null
+        },
+        {
+          "day": 190,
+          "avg": 16.25,
+          "min": 3.26,
+          "max": 35.55,
+          "p25": 9.29,
+          "p75": 19.8,
+          "y1974": 18.02,
+          "y2018": 6.59,
+          "y2022": 17.27,
+          "y2026": null
+        },
+        {
+          "day": 193,
+          "avg": 15.19,
+          "min": -5.48,
+          "max": 33.44,
+          "p25": 10.51,
+          "p75": 20.13,
+          "y1974": 18.43,
+          "y2018": 3.74,
+          "y2022": 15.7,
+          "y2026": null
+        },
+        {
+          "day": 196,
+          "avg": 16.3,
+          "min": -0.99,
+          "max": 36.15,
+          "p25": 11.31,
+          "p75": 20.08,
+          "y1974": 17.13,
+          "y2018": 6.77,
+          "y2022": 15.58,
+          "y2026": null
+        },
+        {
+          "day": 199,
+          "avg": 16.27,
+          "min": 0.71,
+          "max": 33.95,
+          "p25": 11.57,
+          "p75": 20.72,
+          "y1974": 16.24,
+          "y2018": 6.74,
+          "y2022": 14.96,
+          "y2026": null
+        },
+        {
+          "day": 202,
+          "avg": 15.82,
+          "min": -6.18,
+          "max": 36.66,
+          "p25": 11.74,
+          "p75": 21.66,
+          "y1974": 15.33,
+          "y2018": 4.78,
+          "y2022": 18.15,
+          "y2026": null
+        },
+        {
+          "day": 205,
+          "avg": 17.18,
+          "min": -1.49,
+          "max": 36.11,
+          "p25": 12.47,
+          "p75": 21.83,
+          "y1974": 15.53,
+          "y2018": 6.87,
+          "y2022": 18.62,
+          "y2026": null
+        },
+        {
+          "day": 208,
+          "avg": 17.05,
+          "min": -5.15,
+          "max": 35.14,
+          "p25": 12.93,
+          "p75": 22.07,
+          "y1974": 16.97,
+          "y2018": 8.68,
+          "y2022": 16.93,
+          "y2026": null
+        },
+        {
+          "day": 211,
+          "avg": 17.17,
+          "min": -4.79,
+          "max": 36.43,
+          "p25": 13.32,
+          "p75": 22.88,
+          "y1974": 17.16,
+          "y2018": 8.8,
+          "y2022": 17.21,
+          "y2026": null
+        },
+        {
+          "day": 214,
+          "avg": 17.32,
+          "min": -3.25,
+          "max": 37.94,
+          "p25": 11.21,
+          "p75": 23.17,
+          "y1974": 14.66,
+          "y2018": 9.83,
+          "y2022": 16.9,
+          "y2026": null
+        },
+        {
+          "day": 217,
+          "avg": 17.47,
+          "min": -1.97,
+          "max": 39.01,
+          "p25": 12.07,
+          "p75": 22.92,
+          "y1974": 13.41,
+          "y2018": 9.8,
+          "y2022": 15.64,
+          "y2026": null
+        },
+        {
+          "day": 220,
+          "avg": 17.48,
+          "min": -2.96,
+          "max": 40.77,
+          "p25": 11.97,
+          "p75": 22.63,
+          "y1974": 15.02,
+          "y2018": 9.26,
+          "y2022": 13.94,
+          "y2026": null
+        },
+        {
+          "day": 223,
+          "avg": 17.23,
+          "min": -3.92,
+          "max": 41.96,
+          "p25": 11.05,
+          "p75": 23.49,
+          "y1974": 16.23,
+          "y2018": 8.74,
+          "y2022": 12.95,
+          "y2026": null
+        },
+        {
+          "day": 226,
+          "avg": 16.81,
+          "min": -6.74,
+          "max": 43.54,
+          "p25": 10.97,
+          "p75": 22.77,
+          "y1974": 17.94,
+          "y2018": 7.37,
+          "y2022": 11.1,
+          "y2026": null
+        },
+        {
+          "day": 229,
+          "avg": 16.92,
+          "min": -4.66,
+          "max": 39.38,
+          "p25": 12.6,
+          "p75": 23.87,
+          "y1974": 13.48,
+          "y2018": 7.8,
+          "y2022": 13.18,
+          "y2026": null
+        },
+        {
+          "day": 232,
+          "avg": 16.98,
+          "min": -7.19,
+          "max": 33.66,
+          "p25": 13.83,
+          "p75": 22.27,
+          "y1974": 18.88,
+          "y2018": 6.61,
+          "y2022": 14.98,
+          "y2026": null
+        },
+        {
+          "day": 235,
+          "avg": 17.27,
+          "min": -1.64,
+          "max": 34.32,
+          "p25": 11.4,
+          "p75": 23.3,
+          "y1974": 20.92,
+          "y2018": 8.32,
+          "y2022": 14.89,
+          "y2026": null
+        },
+        {
+          "day": 238,
+          "avg": 16.96,
+          "min": -1.17,
+          "max": 28.34,
+          "p25": 10.8,
+          "p75": 24.67,
+          "y1974": 22.17,
+          "y2018": 9.48,
+          "y2022": 12.38,
+          "y2026": null
+        },
+        {
+          "day": 241,
+          "avg": 15.96,
+          "min": 0.79,
+          "max": 29.66,
+          "p25": 10.35,
+          "p75": 23.18,
+          "y1974": 21.59,
+          "y2018": 9.41,
+          "y2022": 11.58,
+          "y2026": null
+        },
+        {
+          "day": 244,
+          "avg": 15.08,
+          "min": 1.72,
+          "max": 32.34,
+          "p25": 8.38,
+          "p75": 23.59,
+          "y1974": 24.12,
+          "y2018": 10.38,
+          "y2022": 8.16,
+          "y2026": null
+        },
+        {
+          "day": 247,
+          "avg": 15.26,
+          "min": -7.38,
+          "max": 34.98,
+          "p25": 11.29,
+          "p75": 22.64,
+          "y1974": 22.78,
+          "y2018": 11.26,
+          "y2022": 11.32,
+          "y2026": null
+        },
+        {
+          "day": 250,
+          "avg": 15.95,
+          "min": -0.42,
+          "max": 33.19,
+          "p25": 10.21,
+          "p75": 22.41,
+          "y1974": 22.21,
+          "y2018": 12.41,
+          "y2022": 14.69,
+          "y2026": null
+        },
+        {
+          "day": 252,
+          "avg": 15.57,
+          "min": 4.05,
+          "max": 33.19,
+          "p25": 9.01,
+          "p75": 20.92,
+          "y1974": 20.54,
+          "y2018": 12.36,
+          "y2022": 15.13,
+          "y2026": null
+        },
+        {
+          "day": 253,
+          "avg": 15.32,
+          "min": 2.04,
+          "max": 33.0,
+          "p25": 9.03,
+          "p75": 21.5,
+          "y1974": 21.11,
+          "y2018": 12.67,
+          "y2022": 14.2,
+          "y2026": null
+        }
+      ],
+      "yearly": [
+        {
+          "year": 1950,
+          "m1": 0.0021,
+          "m3": 0.141,
+          "m6": 0.1534,
+          "m12": 0.1772,
+          "ytd_to_election": 0.1621
+        },
+        {
+          "year": 1954,
+          "m1": 0.0849,
+          "m3": 0.1516,
+          "m6": 0.184,
+          "m12": 0.33,
+          "ytd_to_election": 0.2741
+        },
+        {
+          "year": 1958,
+          "m1": 0.0175,
+          "m3": 0.0545,
+          "m6": 0.1117,
+          "m12": 0.1117,
+          "ytd_to_election": 0.2785
+        },
+        {
+          "year": 1962,
+          "m1": 0.0807,
+          "m3": 0.134,
+          "m6": 0.2057,
+          "m12": 0.2521,
+          "ytd_to_election": -0.1777
+        },
+        {
+          "year": 1966,
+          "m1": 0.0175,
+          "m3": 0.0821,
+          "m6": 0.1613,
+          "m12": 0.1345,
+          "ytd_to_election": -0.1242
+        },
+        {
+          "year": 1970,
+          "m1": 0.0645,
+          "m3": 0.1571,
+          "m6": 0.2427,
+          "m12": 0.1158,
+          "ytd_to_election": -0.102
+        },
+        {
+          "year": 1974,
+          "m1": -0.0951,
+          "m3": 0.0803,
+          "m6": 0.2189,
+          "m12": 0.2111,
+          "ytd_to_election": -0.2518
+        },
+        {
+          "year": 1978,
+          "m1": 0.0199,
+          "m3": 0.0207,
+          "m6": 0.0449,
+          "m12": 0.0631,
+          "ytd_to_election": 0.0146
+        },
+        {
+          "year": 1982,
+          "m1": 0.0247,
+          "m3": 0.0553,
+          "m6": 0.1983,
+          "m12": 0.2073,
+          "ytd_to_election": 0.1037
+        },
+        {
+          "year": 1986,
+          "m1": 0.0295,
+          "m3": 0.1377,
+          "m6": 0.2021,
+          "m12": 0.0204,
+          "ytd_to_election": 0.1728
+        },
+        {
+          "year": 1990,
+          "m1": 0.046,
+          "m3": 0.1382,
+          "m6": 0.2032,
+          "m12": 0.2356,
+          "ytd_to_election": -0.1254
+        },
+        {
+          "year": 1994,
+          "m1": -0.0381,
+          "m3": 0.0391,
+          "m6": 0.1324,
+          "m12": 0.2662,
+          "ytd_to_election": -0.0051
+        },
+        {
+          "year": 1998,
+          "m1": 0.0347,
+          "m3": 0.1231,
+          "m6": 0.1983,
+          "m12": 0.2189,
+          "ytd_to_election": 0.1401
+        },
+        {
+          "year": 2002,
+          "m1": -0.002,
+          "m3": -0.0773,
+          "m6": 0.0131,
+          "m12": 0.1579,
+          "ytd_to_election": -0.2133
+        },
+        {
+          "year": 2006,
+          "m1": 0.0199,
+          "m3": 0.0422,
+          "m6": 0.0914,
+          "m12": 0.0688,
+          "ytd_to_election": 0.0875
+        },
+        {
+          "year": 2010,
+          "m1": 0.0314,
+          "m3": 0.101,
+          "m6": 0.1376,
+          "m12": 0.0286,
+          "ytd_to_election": 0.0454
+        },
+        {
+          "year": 2014,
+          "m1": 0.0268,
+          "m3": 0.0222,
+          "m6": 0.0348,
+          "m12": 0.0419,
+          "ytd_to_election": 0.1014
+        },
+        {
+          "year": 2018,
+          "m1": -0.0384,
+          "m3": -0.0111,
+          "m6": 0.0523,
+          "m12": 0.1267,
+          "ytd_to_election": 0.0158
+        },
+        {
+          "year": 2022,
+          "m1": 0.0412,
+          "m3": 0.0722,
+          "m6": 0.0851,
+          "m12": 0.142,
+          "ytd_to_election": -0.2063
+        },
+        {
+          "year": 2026,
+          "m1": null,
+          "m3": null,
+          "m6": null,
+          "m12": null,
+          "ytd_to_election": 0.0996
+        }
+      ]
+    }
+  }
+}

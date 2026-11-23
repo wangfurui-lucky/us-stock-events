@@ -1,0 +1,9 @@
+{
+  "name": "美股事件雷达",
+  "short_name": "事件雷达",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F17",
+  "theme_color": "#0B0F17",
+  "description": "美股关键时间节点历史走势统计与自选企业财报分析"
+}

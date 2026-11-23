@@ -1,0 +1,244 @@
+{
+  "as_of": "2026-11-23",
+  "events": [
+    {
+      "id": "earn-DELL-2026-11-24",
+      "type": "earnings",
+      "ticker": "DELL",
+      "title": "DELL 财报",
+      "date": "2026-11-24",
+      "subtitle": "盘后 · 历史次日均振 9.5% (4.53x)",
+      "importance": "high"
+    },
+    {
+      "id": "earn-MRVL-2026-12-01",
+      "type": "earnings",
+      "ticker": "MRVL",
+      "title": "MRVL 财报",
+      "date": "2026-12-01",
+      "subtitle": "盘后 · 历史次日均振 7.4% (3.33x)",
+      "importance": "high"
+    },
+    {
+      "id": "nfp-2026-12-04",
+      "type": "macro",
+      "macro_key": "nfp",
+      "title": "非农就业 NFP",
+      "date": "2026-12-04",
+      "subtitle": "2026-11 数据 · 当天波动 1.3x",
+      "importance": "high"
+    },
+    {
+      "id": "fomc-2026-12-09",
+      "type": "macro",
+      "macro_key": "fomc",
+      "title": "FOMC 议息",
+      "date": "2026-12-09",
+      "subtitle": "利率决议 · 按兵不动半导体 +0.65%",
+      "importance": "high"
+    },
+    {
+      "id": "nfp-2027-01-01",
+      "type": "macro",
+      "macro_key": "nfp",
+      "title": "非农就业 NFP",
+      "date": "2027-01-01",
+      "subtitle": "2026-12 数据 · 当天波动 1.3x",
+      "importance": "high"
+    },
+    {
+      "id": "earn-GLW-2027-01-26",
+      "type": "earnings",
+      "ticker": "GLW",
+      "title": "GLW 财报",
+      "date": "2027-01-26",
+      "subtitle": "盘前 · 历史次日均振 4.5% (3.05x)",
+      "importance": "medium"
+    },
+    {
+      "id": "fomc-2027-01-27",
+      "type": "macro",
+      "macro_key": "fomc",
+      "title": "FOMC 议息",
+      "date": "2027-01-27",
+      "subtitle": "利率决议 · 按兵不动半导体 +0.65%",
+      "importance": "high"
+    },
+    {
+      "id": "earn-INTC-2027-01-28",
+      "type": "earnings",
+      "ticker": "INTC",
+      "title": "INTC 财报",
+      "date": "2027-01-28",
+      "subtitle": "盘后 · 历史次日均振 7.4% (4.18x)",
+      "importance": "medium"
+    },
+    {
+      "id": "earn-AMD-2027-02-02",
+      "type": "earnings",
+      "ticker": "AMD",
+      "title": "AMD 财报",
+      "date": "2027-02-02",
+      "subtitle": "盘后 · 历史次日均振 8.8% (3.38x)",
+      "importance": "high"
+    },
+    {
+      "id": "earn-SMCI-2027-02-02",
+      "type": "earnings",
+      "ticker": "SMCI",
+      "title": "SMCI 财报",
+      "date": "2027-02-02",
+      "subtitle": "盘后 · 历史次日均振 10.2% (3.87x)",
+      "importance": "high"
+    },
+    {
+      "id": "earn-LITE-2027-02-02",
+      "type": "earnings",
+      "ticker": "LITE",
+      "title": "LITE 财报",
+      "date": "2027-02-02",
+      "subtitle": "盘前 · 历史次日均振 7.6% (3.0x)",
+      "importance": "medium"
+    },
+    {
+      "id": "nfp-2027-02-05",
+      "type": "macro",
+      "macro_key": "nfp",
+      "title": "非农就业 NFP",
+      "date": "2027-02-05",
+      "subtitle": "2027-01 数据 · 当天波动 1.3x",
+      "importance": "high"
+    },
+    {
+      "id": "earn-NBIS-2027-02-11",
+      "type": "earnings",
+      "ticker": "NBIS",
+      "title": "NBIS 财报",
+      "date": "2027-02-11",
+      "subtitle": "盘前 · 历史次日均振 12.2% (2.35x)",
+      "importance": "medium"
+    },
+    {
+      "id": "earn-SNDK-2027-02-15",
+      "type": "earnings",
+      "ticker": "SNDK",
+      "title": "SNDK 财报",
+      "date": "2027-02-15",
+      "subtitle": "盘后 · 历史次日均振 8.6% (1.75x)",
+      "importance": "medium"
+    },
+    {
+      "id": "earn-CRCL-2027-02-24",
+      "type": "earnings",
+      "ticker": "CRCL",
+      "title": "CRCL 财报",
+      "date": "2027-02-24",
+      "subtitle": "盘前 · 历史次日均振 11.0% (2.54x)",
+      "importance": "medium"
+    },
+    {
+      "id": "earn-CRWV-2027-02-25",
+      "type": "earnings",
+      "ticker": "CRWV",
+      "title": "CRWV 财报",
+      "date": "2027-02-25",
+      "subtitle": "盘后 · 历史次日均振 16.2% (3.27x)",
+      "importance": "high"
+    },
+    {
+      "id": "fomc-2027-03-17",
+      "type": "macro",
+      "macro_key": "fomc",
+      "title": "FOMC 议息",
+      "date": "2027-03-17",
+      "subtitle": "利率决议 · 按兵不动半导体 +0.65%",
+      "importance": "high"
+    },
+    {
+      "id": "fomc-2027-04-28",
+      "type": "macro",
+      "macro_key": "fomc",
+      "title": "FOMC 议息",
+      "date": "2027-04-28",
+      "subtitle": "利率决议 · 按兵不动半导体 +0.65%",
+      "importance": "high"
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "spacex-ipo",
+      "title": "SpaceX / Starlink 上市进度追踪",
+      "category": "超级科技 IPO",
+      "status": "持续追踪",
+      "analogy": "参考大型科技 IPO（Arm、Facebook、Snowflake）前后：上市前 1 个月同板块估值常被拉升，上市首周资金抽血效应明显。",
+      "related_tickers": [
+        "LITE",
+        "GLW",
+        "AMD",
+        "CRWV"
+      ],
+      "timeline": [
+        {
+          "date": "追踪项",
+          "note": "关注 S-1 招股书递交、Starlink 分拆 vs 整体上市路径、估值锚定区间"
+        },
+        {
+          "date": "板块映射",
+          "note": "商业航天、卫星光通信、高算力地面站产业链"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "title": "Anthropic（Claude）上市与融资动态",
+      "category": "AI 独角兽 IPO",
+      "status": "持续追踪",
+      "analogy": "大模型龙头资本化直接验证 AI 基础设施 CapEx 持续性，对算力租赁、定制芯片与光模块情绪影响显著。",
+      "related_tickers": [
+        "CRWV",
+        "NBIS",
+        "MRVL",
+        "DELL",
+        "SMCI",
+        "AMD"
+      ],
+      "timeline": [
+        {
+          "date": "追踪项",
+          "note": "关注 ARR 增速披露、云厂商算力大单（AWS / Google Cloud）及 IPO 时间表"
+        },
+        {
+          "date": "板块映射",
+          "note": "AI 云（CRWV / NBIS）、AI 服务器（DELL / SMCI）、定制芯片与光互联（MRVL / LITE / GLW）"
+        }
+      ]
+    },
+    {
+      "id": "jensen-gtc",
+      "title": "黄仁勋动态 & NVIDIA GTC 大会",
+      "category": "产业领袖 / 发布会",
+      "status": "年度重点（预计 2027年3月）",
+      "analogy": "黄仁勋主题演讲与供应链点名往往直接触发 AI 硬件链（服务器、光模块、存储、液冷、AI 云）的短期重估。",
+      "related_tickers": [
+        "DELL",
+        "SMCI",
+        "CRWV",
+        "NBIS",
+        "SNDK",
+        "GLW",
+        "LITE",
+        "MRVL"
+      ],
+      "timeline": [
+        {
+          "date": "关注重点",
+          "note": "下一代 GPU 架构节奏、CPO 共封装光学路线（影响 LITE/GLW/MRVL）、AI 存储与液冷方案"
+        },
+        {
+          "date": "二期计划",
+          "note": "接入新闻流与 AI 提炼，自动标记提及你自选股的演讲与采访"
+        }
+      ]
+    }
+  ]
+}
