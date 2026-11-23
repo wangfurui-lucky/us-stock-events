@@ -4581,11 +4581,11 @@
       }
     },
     "now_2026": {
-      "trading_days_since": 14.0,
-      "ret_2026": -0.0837,
-      "hist_mean_same_horizon": 0.011,
-      "hist_win_same_horizon": 0.7895,
-      "last_date": "2026-11-20"
+      "trading_days_since": 15.0,
+      "ret_2026": -0.0402,
+      "hist_mean_same_horizon": 0.0116,
+      "hist_win_same_horizon": 0.6316,
+      "last_date": "2026-11-23"
     },
     "long_series": {
       "n_completed": 19,
@@ -4780,7 +4780,7 @@
           "y1974": -5.82,
           "y2018": -2.05,
           "y2022": 3.96,
-          "y2026": null
+          "y2026": -4.02
         },
         {
           "day": 16,
