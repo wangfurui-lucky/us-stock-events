@@ -1,15 +1,6 @@
 {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "events": [
-    {
-      "id": "earn-DELL-2026-11-24",
-      "type": "earnings",
-      "ticker": "DELL",
-      "title": "DELL 财报",
-      "date": "2026-11-24",
-      "subtitle": "盘后 · 历史次日均振 9.5% (4.51x)",
-      "importance": "high"
-    },
     {
       "id": "earn-MRVL-2026-12-01",
       "type": "earnings",
@@ -88,7 +79,7 @@
       "ticker": "SMCI",
       "title": "SMCI 财报",
       "date": "2027-02-02",
-      "subtitle": "盘后 · 历史次日均振 10.4% (3.94x)",
+      "subtitle": "盘后 · 历史次日均振 10.4% (3.93x)",
       "importance": "high"
     },
     {
@@ -97,7 +88,7 @@
       "ticker": "LITE",
       "title": "LITE 财报",
       "date": "2027-02-02",
-      "subtitle": "盘前 · 历史次日均振 7.7% (3.05x)",
+      "subtitle": "盘前 · 历史次日均振 7.7% (3.04x)",
       "importance": "medium"
     },
     {
@@ -124,7 +115,7 @@
       "ticker": "SNDK",
       "title": "SNDK 财报",
       "date": "2027-02-15",
-      "subtitle": "盘后 · 历史次日均振 8.6% (1.76x)",
+      "subtitle": "盘后 · 历史次日均振 8.6% (1.75x)",
       "importance": "medium"
     },
     {
@@ -142,7 +133,7 @@
       "ticker": "CRWV",
       "title": "CRWV 财报",
       "date": "2027-02-25",
-      "subtitle": "盘后 · 历史次日均振 16.2% (3.24x)",
+      "subtitle": "盘后 · 历史次日均振 16.2% (3.23x)",
       "importance": "high"
     },
     {
