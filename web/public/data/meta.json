@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25 00:09",
-  "market_data_through": "2026-11-24",
+  "generated_at": "2026-11-26 00:12",
+  "market_data_through": "2026-11-25",
   "sources": [
     {
       "name": "Yahoo Finance (yfinance)",

@@ -4557,7 +4557,7 @@
         "min": -0.0773,
         "max": 0.1571,
         "base_mean": 0.0228,
-        "base_win": 0.6684
+        "base_win": 0.6683
       },
       "6m": {
         "n": 19,
@@ -4567,7 +4567,7 @@
         "min": 0.0131,
         "max": 0.2427,
         "base_mean": 0.0462,
-        "base_win": 0.7078
+        "base_win": 0.7077
       },
       "12m": {
         "n": 19,
@@ -4581,11 +4581,11 @@
       }
     },
     "now_2026": {
-      "trading_days_since": 16.0,
-      "ret_2026": -0.0451,
-      "hist_mean_same_horizon": 0.0139,
+      "trading_days_since": 17.0,
+      "ret_2026": -0.0476,
+      "hist_mean_same_horizon": 0.0185,
       "hist_win_same_horizon": 0.6842,
-      "last_date": "2026-11-24"
+      "last_date": "2026-11-25"
     },
     "long_series": {
       "n_completed": 19,
@@ -4804,7 +4804,7 @@
           "y1974": -4.3,
           "y2018": -0.02,
           "y2022": 7.09,
-          "y2026": null
+          "y2026": -4.76
         },
         {
           "day": 18,
