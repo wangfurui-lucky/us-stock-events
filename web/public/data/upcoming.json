@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "events": [
     {
       "id": "earn-MRVL-2026-12-01",
@@ -43,7 +43,7 @@
       "ticker": "GLW",
       "title": "GLW 财报",
       "date": "2027-01-26",
-      "subtitle": "盘前 · 历史次日均振 4.5% (3.04x)",
+      "subtitle": "盘前 · 历史次日均振 4.5% (3.03x)",
       "importance": "medium"
     },
     {
@@ -124,7 +124,7 @@
       "ticker": "CRCL",
       "title": "CRCL 财报",
       "date": "2027-02-24",
-      "subtitle": "盘前 · 历史次日均振 11.0% (2.53x)",
+      "subtitle": "盘前 · 历史次日均振 11.0% (2.54x)",
       "importance": "medium"
     },
     {
@@ -133,7 +133,7 @@
       "ticker": "DELL",
       "title": "DELL 财报",
       "date": "2027-02-25",
-      "subtitle": "盘后 · 历史次日均振 9.2% (4.37x)",
+      "subtitle": "盘后 · 历史次日均振 9.2% (4.36x)",
       "importance": "high"
     },
     {
